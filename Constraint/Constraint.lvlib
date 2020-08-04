@@ -8,5 +8,8 @@
 		<Item Name="IsFalse.lvclass" Type="LVClass" URL="../IsFalse/IsFalse.lvclass"/>
 		<Item Name="IsTrue.lvclass" Type="LVClass" URL="../IsTrue/IsTrue.lvclass"/>
 	</Item>
+	<Item Name="Cardinality" Type="Folder">
+		<Item Name="Count.lvclass" Type="LVClass" URL="../Count/Count.lvclass"/>
+	</Item>
 	<Item Name="Constraint.lvclass" Type="LVClass" URL="../Constraint/Constraint.lvclass"/>
 </Library>

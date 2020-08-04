@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="AssertCount.lvlib" Type="Library" URL="../AssertCount/AssertCount.lvlib"/>
 	<Item Name="AssertFalse.lvlib" Type="Library" URL="../AssertFalse/AssertFalse.lvlib"/>
 	<Item Name="AssertTrue.lvlib" Type="Library" URL="../AssertTrue/AssertTrue.lvlib"/>
 	<Item Name="ErrorMessageFromErrorCluster.vi" Type="VI" URL="../ErrorMessageFromErrorCluster.vi">
