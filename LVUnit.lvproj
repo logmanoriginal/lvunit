@@ -11,7 +11,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Runner" Type="Folder">
+			<Item Name="TestCase.lvlib" Type="Library" URL="../TestCase/TestCase.lvlib"/>
+			<Item Name="TestCaseTest.lvlib" Type="Library" URL="../TestCaseTest/TestCaseTest.lvlib"/>
+			<Item Name="TestCaseTestSupport.lvlib" Type="Library" URL="../TestCaseTestSupport/TestCaseTestSupport.lvlib"/>
+			<Item Name="TestFailure.lvclass" Type="LVClass" URL="../TestFailure/TestFailure.lvclass"/>
+			<Item Name="TestResult.lvclass" Type="LVClass" URL="../TestResult/TestResult.lvclass"/>
+			<Item Name="TestResultTest.lvlib" Type="Library" URL="../TestResultTest/TestResultTest.lvlib"/>
+			<Item Name="TestResultTestSupport.lvlib" Type="Library" URL="../TestResultTestSupport/TestResultTestSupport.lvlib"/>
+			<Item Name="TestRunner.lvclass" Type="LVClass" URL="../TestRunner/TestRunner.lvclass"/>
+			<Item Name="TestSuite.lvclass" Type="LVClass" URL="../TestSuite/TestSuite.lvclass"/>
+			<Item Name="TestSuiteTest.lvlib" Type="Library" URL="../TestSuiteTest/TestSuiteTest.lvlib"/>
+			<Item Name="TestSuiteTestSupport.lvlib" Type="Library" URL="../TestSuiteTestSupport/TestSuiteTestSupport.lvlib"/>
+		</Item>
 		<Item Name=".vipc" Type="Document" URL="../.vipc"/>
+		<Item Name="__RunTestsInCurrentProject.vi" Type="VI" URL="../TestSuite/__RunTestsInCurrentProject.vi"/>
 		<Item Name="Assertion.lvlib" Type="Library" URL="../Assertion/Assertion.lvlib"/>
 		<Item Name="AssertionTest.lvlib" Type="Library" URL="../AssertionTest/AssertionTest.lvlib"/>
 		<Item Name="Constraint.lvlib" Type="Library" URL="../Constraint/Constraint.lvlib"/>
@@ -32,6 +46,7 @@
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
