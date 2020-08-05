@@ -4,12 +4,16 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Boolean" Type="Folder">
 		<Item Name="IsFalse.lvclass" Type="LVClass" URL="../IsFalse/IsFalse.lvclass"/>
 		<Item Name="IsTrue.lvclass" Type="LVClass" URL="../IsTrue/IsTrue.lvclass"/>
 	</Item>
 	<Item Name="Cardinality" Type="Folder">
 		<Item Name="Count.lvclass" Type="LVClass" URL="../Count/Count.lvclass"/>
+	</Item>
+	<Item Name="Equality" Type="Folder">
+		<Item Name="IsEqual.lvclass" Type="LVClass" URL="../IsEqual/IsEqual.lvclass"/>
 	</Item>
 	<Item Name="Constraint.lvclass" Type="LVClass" URL="../Constraint/Constraint.lvclass"/>
 </Library>
