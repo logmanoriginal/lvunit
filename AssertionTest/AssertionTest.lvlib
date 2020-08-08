@@ -8,8 +8,9 @@
 	<Item Name="AssertCount.lvlib" Type="Library" URL="../AssertCount/AssertCount.lvlib"/>
 	<Item Name="AssertEquals.lvlib" Type="Library" URL="../AssertEquals/AssertEquals.lvlib"/>
 	<Item Name="AssertFalse.lvlib" Type="Library" URL="../AssertFalse/AssertFalse.lvlib"/>
-	<Item Name="AssertTrue.lvlib" Type="Library" URL="../AssertTrue/AssertTrue.lvlib"/>
+	<Item Name="AssertNoError.lvlib" Type="Library" URL="../AssertNoError/AssertNoError.lvlib"/>
 	<Item Name="AssertStringContainsString.lvlib" Type="Library" URL="../AssertStringContainsString/AssertStringContainsString.lvlib"/>
+	<Item Name="AssertTrue.lvlib" Type="Library" URL="../AssertTrue/AssertTrue.lvlib"/>
 	<Item Name="ErrorMessageFromErrorCluster.vi" Type="VI" URL="../ErrorMessageFromErrorCluster.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
