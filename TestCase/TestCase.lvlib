@@ -6,4 +6,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Fact.lvclass" Type="LVClass" URL="../Fact/Fact.lvclass"/>
 	<Item Name="TestCase.lvclass" Type="LVClass" URL="../TestCase/TestCase.lvclass"/>
+	<Item Name="Theory.lvclass" Type="LVClass" URL="../Theory/Theory.lvclass"/>
 </Library>
