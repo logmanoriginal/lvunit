@@ -10,6 +10,7 @@
 	<Item Name="AssertCount.vi" Type="VI" URL="../AssertCount.vi"/>
 	<Item Name="AssertEquals.vi" Type="VI" URL="../AssertEquals.vi"/>
 	<Item Name="AssertErrorCode.vi" Type="VI" URL="../AssertErrorCode.vi"/>
+	<Item Name="AssertErrorMessageContainsString.vi" Type="VI" URL="../AssertErrorMessageContainsString.vi"/>
 	<Item Name="AssertFalse.vi" Type="VI" URL="../AssertFalse.vi"/>
 	<Item Name="AssertNoError.vi" Type="VI" URL="../AssertNoError.vi"/>
 	<Item Name="AssertStringContainsString.vi" Type="VI" URL="../AssertStringContainsString.vi"/>

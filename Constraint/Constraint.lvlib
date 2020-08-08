@@ -21,6 +21,7 @@
 	<Item Name="Error" Type="Folder">
 		<Item Name="Error.lvclass" Type="LVClass" URL="../Error/Error.lvclass"/>
 		<Item Name="ErrorCode.lvclass" Type="LVClass" URL="../ErrorCode/ErrorCode.lvclass"/>
+		<Item Name="ErrorMessageContains.lvclass" Type="LVClass" URL="../ErrorMessageContains/ErrorMessageContains.lvclass"/>
 	</Item>
 	<Item Name="Constraint.lvclass" Type="LVClass" URL="../Constraint/Constraint.lvclass"/>
 </Library>
