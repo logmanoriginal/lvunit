@@ -16,5 +16,4 @@
 	<Item Name="ThrowError.vi" Type="VI" URL="../ThrowError.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="RunAllTests.vi" Type="VI" URL="../RunAllTests.vi"/>
 </Library>
