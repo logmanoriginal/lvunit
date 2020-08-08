@@ -15,5 +15,7 @@
 	<Item Name="Equality" Type="Folder">
 		<Item Name="IsEqual.lvclass" Type="LVClass" URL="../IsEqual/IsEqual.lvclass"/>
 	</Item>
+	<Item Name="String" Type="Folder"/>
 	<Item Name="Constraint.lvclass" Type="LVClass" URL="../Constraint/Constraint.lvclass"/>
+	<Item Name="StringContains.lvclass" Type="LVClass" URL="../StringContains/StringContains.lvclass"/>
 </Library>

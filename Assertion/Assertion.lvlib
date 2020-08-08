@@ -10,5 +10,6 @@
 	<Item Name="AssertCount.vi" Type="VI" URL="../AssertCount.vi"/>
 	<Item Name="AssertEquals.vi" Type="VI" URL="../AssertEquals.vi"/>
 	<Item Name="AssertFalse.vi" Type="VI" URL="../AssertFalse.vi"/>
+	<Item Name="AssertStringContainsString.vi" Type="VI" URL="../AssertStringContainsString.vi"/>
 	<Item Name="AssertTrue.vi" Type="VI" URL="../AssertTrue.vi"/>
 </Library>
