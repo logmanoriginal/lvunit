@@ -12,6 +12,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Runner" Type="Folder">
+			<Item Name="CodeCoverage.lvclass" Type="LVClass" URL="../CodeCoverage/CodeCoverage.lvclass"/>
+			<Item Name="CodeCoverageTest.lvlib" Type="Library" URL="../CodeCoverageTest/CodeCoverageTest.lvlib"/>
+			<Item Name="CodeCoverageTestSupport.lvlib" Type="Library" URL="../CodeCoverageTestSupport/CodeCoverageTestSupport.lvlib"/>
 			<Item Name="TestCase.lvlib" Type="Library" URL="../TestCase/TestCase.lvlib"/>
 			<Item Name="TestCaseTest.lvlib" Type="Library" URL="../TestCaseTest/TestCaseTest.lvlib"/>
 			<Item Name="TestCaseTestSupport.lvlib" Type="Library" URL="../TestCaseTestSupport/TestCaseTestSupport.lvlib"/>
