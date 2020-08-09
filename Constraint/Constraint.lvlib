@@ -23,5 +23,12 @@
 		<Item Name="ErrorCode.lvclass" Type="LVClass" URL="../ErrorCode/ErrorCode.lvclass"/>
 		<Item Name="ErrorMessageContains.lvclass" Type="LVClass" URL="../ErrorMessageContains/ErrorMessageContains.lvclass"/>
 	</Item>
+	<Item Name="Operator" Type="Folder">
+		<Item Name="UnaryOperator" Type="Folder">
+			<Item Name="UnaryOperator.lvclass" Type="LVClass" URL="../UnaryOperator/UnaryOperator.lvclass"/>
+			<Item Name="LogicalNot.lvclass" Type="LVClass" URL="../LogicalNot/LogicalNot.lvclass"/>
+		</Item>
+		<Item Name="Operator.lvclass" Type="LVClass" URL="../Operator/Operator.lvclass"/>
+	</Item>
 	<Item Name="Constraint.lvclass" Type="LVClass" URL="../Constraint/Constraint.lvclass"/>
 </Library>
