@@ -9,5 +9,6 @@
 	<Item Name="testError.vi" Type="VI" URL="../testError.vi"/>
 	<Item Name="testErrorMessage.vi" Type="VI" URL="../testErrorMessage.vi"/>
 	<Item Name="testStringIncluded.vi" Type="VI" URL="../testStringIncluded.vi"/>
+	<Item Name="testStringNotIncluded.json" Type="Document" URL="../testStringNotIncluded.json"/>
 	<Item Name="testStringNotIncluded.vi" Type="VI" URL="../testStringNotIncluded.vi"/>
 </Library>
