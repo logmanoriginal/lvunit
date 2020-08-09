@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Message 1",
+        "data": {
+            "expected": "Failed asserting that...",
+            "message": "Failed asserting that..."
+        }
+    },
+    {
+        "name": "Message 2",
+        "data": {
+            "expected": "Test failed!",
+            "message": "Test failed!"
+        }
+    }
+]
