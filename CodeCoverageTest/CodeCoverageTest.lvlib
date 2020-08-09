@@ -4,6 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="testFullCoverage.vi" Type="VI" URL="../testFullCoverage.vi"/>
-	<Item Name="testPartialCoverage.vi" Type="VI" URL="../testPartialCoverage.vi"/>
+	<Item Name="testFullCoverage.vi" Type="VI" URL="../testFullCoverage.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="testPartialCoverage.vi" Type="VI" URL="../testPartialCoverage.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </Library>
