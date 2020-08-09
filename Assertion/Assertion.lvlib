@@ -16,5 +16,6 @@
 	<Item Name="AssertStringContainsString.vi" Type="VI" URL="../AssertStringContainsString.vi"/>
 	<Item Name="AssertStringContainsStringIgnoringCase.vi" Type="VI" URL="../AssertStringContainsStringIgnoringCase.vi"/>
 	<Item Name="AssertStringNotContainsString.vi" Type="VI" URL="../AssertStringNotContainsString.vi"/>
+	<Item Name="AssertStringNotContainsStringIgnoringCase.vi" Type="VI" URL="../AssertStringNotContainsStringIgnoringCase.vi"/>
 	<Item Name="AssertTrue.vi" Type="VI" URL="../AssertTrue.vi"/>
 </Library>

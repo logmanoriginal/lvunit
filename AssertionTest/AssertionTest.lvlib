@@ -18,4 +18,5 @@
 	<Item Name="ErrorMessageFromErrorCluster.vi" Type="VI" URL="../ErrorMessageFromErrorCluster.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="AssertStringNotContainsStringIgnoringCase.lvlib" Type="Library" URL="../AssertStringNotContainsStringIgnoringCase/AssertStringNotContainsStringIgnoringCase.lvlib"/>
 </Library>
