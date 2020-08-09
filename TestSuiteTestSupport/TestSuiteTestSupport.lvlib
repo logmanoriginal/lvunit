@@ -4,7 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="FakeFact.vi" Type="VI" URL="../FakeFact.vi"/>
+	<Item Name="FakeTheory.json" Type="Document" URL="../FakeTheory.json"/>
+	<Item Name="FakeTheory.vi" Type="VI" URL="../FakeTheory.vi"/>
 	<Item Name="FakeLibrary.lvlib" Type="Library" URL="../FakeLibrary/FakeLibrary.lvlib"/>
 	<Item Name="TestCaseMock.lvclass" Type="LVClass" URL="../TestCaseMock/TestCaseMock.lvclass"/>
 	<Item Name="TestResultMock.lvclass" Type="LVClass" URL="../TestResultMock/TestResultMock.lvclass"/>

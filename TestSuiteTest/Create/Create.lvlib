@@ -8,4 +8,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="testFact.vi" Type="VI" URL="../testFact.vi"/>
 	<Item Name="testProjectLibrary.vi" Type="VI" URL="../testProjectLibrary.vi"/>
+	<Item Name="testTheory.vi" Type="VI" URL="../testTheory.vi"/>
+	<Item Name="testUnsupportedType.vi" Type="VI" URL="../testUnsupportedType.vi"/>
 </Library>

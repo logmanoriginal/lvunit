@@ -19,6 +19,7 @@
 			<Item Name="TestCaseTest.lvlib" Type="Library" URL="../TestCaseTest/TestCaseTest.lvlib"/>
 			<Item Name="TestCaseTestSupport.lvlib" Type="Library" URL="../TestCaseTestSupport/TestCaseTestSupport.lvlib"/>
 			<Item Name="TestFailure.lvclass" Type="LVClass" URL="../TestFailure/TestFailure.lvclass"/>
+			<Item Name="TestFailureTest.lvlib" Type="Library" URL="../TestFailureTest/TestFailureTest.lvlib"/>
 			<Item Name="TestResult.lvclass" Type="LVClass" URL="../TestResult/TestResult.lvclass"/>
 			<Item Name="TestResultTest.lvlib" Type="Library" URL="../TestResultTest/TestResultTest.lvlib"/>
 			<Item Name="TestResultTestSupport.lvlib" Type="Library" URL="../TestResultTestSupport/TestResultTestSupport.lvlib"/>
@@ -32,6 +33,7 @@
 		<Item Name="Assertion.lvlib" Type="Library" URL="../Assertion/Assertion.lvlib"/>
 		<Item Name="AssertionTest.lvlib" Type="Library" URL="../AssertionTest/AssertionTest.lvlib"/>
 		<Item Name="Constraint.lvlib" Type="Library" URL="../Constraint/Constraint.lvlib"/>
+		<Item Name="ConstraintTest.lvlib" Type="Library" URL="../ConstraintTest/ConstraintTest.lvlib"/>
 		<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
 		<Item Name="ErrorTest.lvlib" Type="Library" URL="../ErrorTest/ErrorTest.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">

@@ -4,8 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="FakeFact.vi" Type="VI" URL="../FakeFact.vi"/>
-	<Item Name="FakeTheory.vi" Type="VI" URL="../FakeTheory.vi"/>
-	<Item Name="FakeTheoryWithControlsNotOnConnectorPane.vi" Type="VI" URL="../FakeTheoryWithControlsNotOnConnectorPane.vi"/>
-	<Item Name="TestResultMock.lvclass" Type="LVClass" URL="../TestResultMock/TestResultMock.lvclass"/>
+	<Item Name="Constraint.lvlib" Type="Library" URL="../Constraint/Constraint.lvlib"/>
+	<Item Name="UnaryOperator.lvlib" Type="Library" URL="../UnaryOperator/UnaryOperator.lvlib"/>
 </Library>
