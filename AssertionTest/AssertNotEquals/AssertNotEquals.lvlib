@@ -9,7 +9,6 @@
 	<Item Name="testAssertionFailureMessage.vi" Type="VI" URL="../testAssertionFailureMessage.vi"/>
 	<Item Name="testCustomAssertionFailureMessage.vi" Type="VI" URL="../testCustomAssertionFailureMessage.vi"/>
 	<Item Name="testDifferent.vi" Type="VI" URL="../testDifferent.vi"/>
-	<Item Name="testDifferentTypes.vi" Type="VI" URL="../testDifferentTypes.vi"/>
 	<Item Name="testError.vi" Type="VI" URL="../testError.vi"/>
 	<Item Name="testSame.vi" Type="VI" URL="../testSame.vi"/>
 </Library>
