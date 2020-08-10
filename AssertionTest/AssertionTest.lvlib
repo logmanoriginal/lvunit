@@ -12,12 +12,13 @@
 	<Item Name="AssertFalse.lvlib" Type="Library" URL="../AssertFalse/AssertFalse.lvlib"/>
 	<Item Name="AssertNoError.lvlib" Type="Library" URL="../AssertNoError/AssertNoError.lvlib"/>
 	<Item Name="AssertNotCount.lvlib" Type="Library" URL="../../AssertNotCount/AssertNotCount.lvlib"/>
+	<Item Name="AssertNotEquals.lvlib" Type="Library" URL="../AssertNotEquals/AssertNotEquals.lvlib"/>
 	<Item Name="AssertStringContainsString.lvlib" Type="Library" URL="../AssertStringContainsString/AssertStringContainsString.lvlib"/>
 	<Item Name="AssertStringContainsStringIgnoringCase.lvlib" Type="Library" URL="../AssertStringContainsStringIgnoringCase/AssertStringContainsStringIgnoringCase.lvlib"/>
 	<Item Name="AssertStringNotContainsString.lvlib" Type="Library" URL="../AssertStringNotContainsString/AssertStringNotContainsString.lvlib"/>
+	<Item Name="AssertStringNotContainsStringIgnoringCase.lvlib" Type="Library" URL="../AssertStringNotContainsStringIgnoringCase/AssertStringNotContainsStringIgnoringCase.lvlib"/>
 	<Item Name="AssertTrue.lvlib" Type="Library" URL="../AssertTrue/AssertTrue.lvlib"/>
 	<Item Name="ErrorMessageFromErrorCluster.vi" Type="VI" URL="../ErrorMessageFromErrorCluster.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="AssertStringNotContainsStringIgnoringCase.lvlib" Type="Library" URL="../AssertStringNotContainsStringIgnoringCase/AssertStringNotContainsStringIgnoringCase.lvlib"/>
 </Library>
