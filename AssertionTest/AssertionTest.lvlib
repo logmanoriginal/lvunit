@@ -11,6 +11,7 @@
 	<Item Name="ErrorMessageContainsString.lvlib" Type="Library" URL="../AssertErrorMessageContainsString/ErrorMessageContainsString.lvlib"/>
 	<Item Name="AssertFalse.lvlib" Type="Library" URL="../AssertFalse/AssertFalse.lvlib"/>
 	<Item Name="AssertNoError.lvlib" Type="Library" URL="../AssertNoError/AssertNoError.lvlib"/>
+	<Item Name="AssertNotCount.lvlib" Type="Library" URL="../../AssertNotCount/AssertNotCount.lvlib"/>
 	<Item Name="AssertStringContainsString.lvlib" Type="Library" URL="../AssertStringContainsString/AssertStringContainsString.lvlib"/>
 	<Item Name="AssertStringContainsStringIgnoringCase.lvlib" Type="Library" URL="../AssertStringContainsStringIgnoringCase/AssertStringContainsStringIgnoringCase.lvlib"/>
 	<Item Name="AssertStringNotContainsString.lvlib" Type="Library" URL="../AssertStringNotContainsString/AssertStringNotContainsString.lvlib"/>

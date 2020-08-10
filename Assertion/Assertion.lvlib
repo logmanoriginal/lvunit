@@ -13,6 +13,7 @@
 	<Item Name="AssertErrorMessageContainsString.vi" Type="VI" URL="../AssertErrorMessageContainsString.vi"/>
 	<Item Name="AssertFalse.vi" Type="VI" URL="../AssertFalse.vi"/>
 	<Item Name="AssertNoError.vi" Type="VI" URL="../AssertNoError.vi"/>
+	<Item Name="AssertNotCount.vi" Type="VI" URL="../AssertNotCount.vi"/>
 	<Item Name="AssertStringContainsString.vi" Type="VI" URL="../AssertStringContainsString.vi"/>
 	<Item Name="AssertStringContainsStringIgnoringCase.vi" Type="VI" URL="../AssertStringContainsStringIgnoringCase.vi"/>
 	<Item Name="AssertStringNotContainsString.vi" Type="VI" URL="../AssertStringNotContainsString.vi"/>
