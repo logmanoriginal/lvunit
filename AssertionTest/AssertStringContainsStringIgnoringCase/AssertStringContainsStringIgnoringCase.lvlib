@@ -6,7 +6,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="testError.vi" Type="VI" URL="../testError.vi"/>
 	<Item Name="testErrorMessage.vi" Type="VI" URL="../testErrorMessage.vi"/>
 	<Item Name="testStringIncluded.vi" Type="VI" URL="../testStringIncluded.vi"/>
 	<Item Name="testStringIncludedDifferentCase.vi" Type="VI" URL="../testStringIncludedDifferentCase.vi"/>

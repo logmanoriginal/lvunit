@@ -21,4 +21,5 @@
 	<Item Name="ErrorMessageFromErrorCluster.vi" Type="VI" URL="../ErrorMessageFromErrorCluster.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="testStandardErrorBehavior.vi" Type="VI" URL="../testStandardErrorBehavior.vi"/>
 </Library>

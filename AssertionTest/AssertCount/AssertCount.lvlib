@@ -12,7 +12,6 @@
 	<Item Name="test1DArray.vi" Type="VI" URL="../test1DArray.vi"/>
 	<Item Name="test2DArray.vi" Type="VI" URL="../test2DArray.vi"/>
 	<Item Name="testEmpty.vi" Type="VI" URL="../testEmpty.vi"/>
-	<Item Name="testError.vi" Type="VI" URL="../testError.vi"/>
 	<Item Name="testMap.vi" Type="VI" URL="../testMap.vi"/>
 	<Item Name="testMessage.vi" Type="VI" URL="../testMessage.vi"/>
 	<Item Name="testSet.vi" Type="VI" URL="../testSet.vi"/>

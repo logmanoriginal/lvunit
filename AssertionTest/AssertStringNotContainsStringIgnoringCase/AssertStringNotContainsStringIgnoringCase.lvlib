@@ -8,7 +8,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="testAssertionFailureMessage.vi" Type="VI" URL="../testAssertionFailureMessage.vi"/>
 	<Item Name="testCustomAssertionFailureMessage.vi" Type="VI" URL="../testCustomAssertionFailureMessage.vi"/>
-	<Item Name="testError.vi" Type="VI" URL="../testError.vi"/>
 	<Item Name="testStringIncluded.vi" Type="VI" URL="../testStringIncluded.vi"/>
 	<Item Name="testStringIncludedDifferentCase.vi" Type="VI" URL="../testStringIncludedDifferentCase.vi"/>
 	<Item Name="testStringNotIncluded.json" Type="Document" URL="../testStringNotIncluded.json"/>

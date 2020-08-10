@@ -10,7 +10,6 @@
 
 </Property>
 	<Item Name="testDifferent.vi" Type="VI" URL="../testDifferent.vi"/>
-	<Item Name="testError.vi" Type="VI" URL="../testError.vi"/>
 	<Item Name="testMessage.vi" Type="VI" URL="../testMessage.vi"/>
 	<Item Name="testSame.vi" Type="VI" URL="../testSame.vi"/>
 </Library>
