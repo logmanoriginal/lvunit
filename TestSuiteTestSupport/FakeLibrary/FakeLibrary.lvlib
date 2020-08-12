@@ -9,6 +9,7 @@
 	<Item Name="FakeFact1.vi" Type="VI" URL="../FakeFact1.vi"/>
 	<Item Name="FakeFact2.vi" Type="VI" URL="../FakeFact2.vi"/>
 	<Item Name="FakeFact3.vi" Type="VI" URL="../FakeFact3.vi"/>
+	<Item Name="FakeTheory.vi" Type="VI" URL="../FakeTheory.vi"/>
 	<Item Name="PrivateFunction.vi" Type="VI" URL="../PrivateFunction.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
