@@ -7,4 +7,5 @@
 	<Item Name="testPassed.vi" Type="VI" URL="../testPassed.vi"/>
 	<Item Name="testRunCallsRunTest.vi" Type="VI" URL="../testRunCallsRunTest.vi"/>
 	<Item Name="testRunWithAssertionFailure.vi" Type="VI" URL="../testRunWithAssertionFailure.vi"/>
+	<Item Name="testTime.vi" Type="VI" URL="../testTime.vi"/>
 </Library>
