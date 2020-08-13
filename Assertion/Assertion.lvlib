@@ -15,6 +15,7 @@
 	<Item Name="AssertNoError.vi" Type="VI" URL="../AssertNoError.vi"/>
 	<Item Name="AssertNotCount.vi" Type="VI" URL="../AssertNotCount.vi"/>
 	<Item Name="AssertNotEquals.vim" Type="VI" URL="../AssertNotEquals.vim"/>
+	<Item Name="AssertRefnum.vi" Type="VI" URL="../AssertRefnum.vi"/>
 	<Item Name="AssertStringContainsString.vi" Type="VI" URL="../AssertStringContainsString.vi"/>
 	<Item Name="AssertStringContainsStringIgnoringCase.vi" Type="VI" URL="../AssertStringContainsStringIgnoringCase.vi"/>
 	<Item Name="AssertStringNotContainsString.vi" Type="VI" URL="../AssertStringNotContainsString.vi"/>

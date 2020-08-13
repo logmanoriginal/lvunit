@@ -30,5 +30,8 @@
 		</Item>
 		<Item Name="Operator.lvclass" Type="LVClass" URL="../Operator/Operator.lvclass"/>
 	</Item>
+	<Item Name="Type" Type="Folder">
+		<Item Name="IsRefnum.lvclass" Type="LVClass" URL="../IsRefnum/IsRefnum.lvclass"/>
+	</Item>
 	<Item Name="Constraint.lvclass" Type="LVClass" URL="../Constraint/Constraint.lvclass"/>
 </Library>

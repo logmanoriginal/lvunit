@@ -13,6 +13,7 @@
 	<Item Name="AssertNoError.lvlib" Type="Library" URL="../AssertNoError/AssertNoError.lvlib"/>
 	<Item Name="AssertNotCount.lvlib" Type="Library" URL="../AssertNotCount/AssertNotCount.lvlib"/>
 	<Item Name="AssertNotEquals.lvlib" Type="Library" URL="../AssertNotEquals/AssertNotEquals.lvlib"/>
+	<Item Name="AssertRefnum.lvlib" Type="Library" URL="../AssertRefnum/AssertRefnum.lvlib"/>
 	<Item Name="AssertStringContainsString.lvlib" Type="Library" URL="../AssertStringContainsString/AssertStringContainsString.lvlib"/>
 	<Item Name="AssertStringContainsStringIgnoringCase.lvlib" Type="Library" URL="../AssertStringContainsStringIgnoringCase/AssertStringContainsStringIgnoringCase.lvlib"/>
 	<Item Name="AssertStringNotContainsString.lvlib" Type="Library" URL="../AssertStringNotContainsString/AssertStringNotContainsString.lvlib"/>
