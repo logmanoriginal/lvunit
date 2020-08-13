@@ -4,7 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="testApplicationRefnum.vi" Type="VI" URL="../testApplicationRefnum.vi"/>
 	<Item Name="testFullCoverage.vi" Type="VI" URL="../testFullCoverage.vi"/>
 	<Item Name="testNoMeasured.vi" Type="VI" URL="../testNoMeasured.vi"/>
 	<Item Name="testPartialCoverage.vi" Type="VI" URL="../testPartialCoverage.vi"/>
+	<Item Name="testReset.vi" Type="VI" URL="../testReset.vi"/>
 </Library>
