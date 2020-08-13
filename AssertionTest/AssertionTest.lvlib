@@ -23,4 +23,5 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="testStandardErrorBehavior.vi" Type="VI" URL="../testStandardErrorBehavior.vi"/>
+	<Item Name="AssertNotRefnum.lvlib" Type="Library" URL="../AssertNotRefnum/AssertNotRefnum.lvlib"/>
 </Library>
