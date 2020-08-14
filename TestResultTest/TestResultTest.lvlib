@@ -4,6 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Run_CallsListenerEndTest.vi" Type="VI" URL="../Run_CallsListenerEndTest.vi"/>
+	<Item Name="Run_TestFailure_CallsListenerAddFailure.vi" Type="VI" URL="../Run_TestFailure_CallsListenerAddFailure.vi"/>
 	<Item Name="testPassed.vi" Type="VI" URL="../testPassed.vi"/>
 	<Item Name="testRunCallsRunTest.vi" Type="VI" URL="../testRunCallsRunTest.vi"/>
 	<Item Name="testRunWithAssertionFailure.vi" Type="VI" URL="../testRunWithAssertionFailure.vi"/>

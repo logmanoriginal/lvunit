@@ -4,5 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="FakeTestListener.lvclass" Type="LVClass" URL="../FakeTestListener/FakeTestListener.lvclass"/>
 	<Item Name="TestCaseMock.lvclass" Type="LVClass" URL="../TestCaseMock/TestCaseMock.lvclass"/>
 </Library>

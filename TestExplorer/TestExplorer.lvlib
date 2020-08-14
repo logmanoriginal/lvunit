@@ -4,9 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="Fact.lvlib" Type="Library" URL="../Fact/Fact.lvlib"/>
-	<Item Name="Theory.lvlib" Type="Library" URL="../Theory/Theory.lvlib"/>
-	<Item Name="testRunCalled.vi" Type="VI" URL="../testRunCalled.vi"/>
-	<Item Name="RunTest_ReportsNotImplementedError.vi" Type="VI" URL="../RunTest_ReportsNotImplementedError.vi"/>
+	<Item Name="EventTestListener.lvclass" Type="LVClass" URL="../EventTestListener/EventTestListener.lvclass"/>
 </Library>

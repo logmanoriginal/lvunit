@@ -25,6 +25,7 @@
 			<Item Name="TestSuite.lvclass" Type="LVClass" URL="../TestSuite/TestSuite.lvclass"/>
 			<Item Name="TestSuiteTest.lvlib" Type="Library" URL="../TestSuiteTest/TestSuiteTest.lvlib"/>
 			<Item Name="TestSuiteTestSupport.lvlib" Type="Library" URL="../TestSuiteTestSupport/TestSuiteTestSupport.lvlib"/>
+			<Item Name="TestListener.lvclass" Type="LVClass" URL="../TestListener/TestListener.lvclass"/>
 		</Item>
 		<Item Name="__RunTestsInCurrentProject.vi" Type="VI" URL="../__RunTestsInCurrentProject.vi"/>
 		<Item Name="Assertion.lvlib" Type="Library" URL="../Assertion/Assertion.lvlib"/>
@@ -37,6 +38,7 @@
 		<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
 		<Item Name="ErrorTest.lvlib" Type="Library" URL="../ErrorTest/ErrorTest.lvlib"/>
 		<Item Name=".vipc" Type="Document" URL="../.vipc"/>
+		<Item Name="TestExplorer.lvlib" Type="Library" URL="../TestExplorer/TestExplorer.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
