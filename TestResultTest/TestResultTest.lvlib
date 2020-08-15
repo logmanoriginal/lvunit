@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Run_CallsListenerEndTest.vi" Type="VI" URL="../Run_CallsListenerEndTest.vi"/>
 	<Item Name="Run_TestFailure_CallsListenerAddFailure.vi" Type="VI" URL="../Run_TestFailure_CallsListenerAddFailure.vi"/>
+	<Item Name="StartTestSuite_CallsListenerStartTestSuite.vi" Type="VI" URL="../StartTestSuite_CallsListenerStartTestSuite.vi"/>
 	<Item Name="testPassed.vi" Type="VI" URL="../testPassed.vi"/>
 	<Item Name="testRunCallsRunTest.vi" Type="VI" URL="../testRunCallsRunTest.vi"/>
 	<Item Name="testRunWithAssertionFailure.vi" Type="VI" URL="../testRunWithAssertionFailure.vi"/>
