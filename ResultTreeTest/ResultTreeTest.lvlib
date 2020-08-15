@@ -13,6 +13,10 @@
 	<Item Name="AddTestSuite_WithParent_TreeHasTag.vi" Type="VI" URL="../AddTestSuite_WithParent_TreeHasTag.vi"/>
 	<Item Name="CreateResultTree_ColumnHeadersSet.vi" Type="VI" URL="../CreateResultTree_ColumnHeadersSet.vi"/>
 	<Item Name="CreateResultTree_TreeItemsCleared.vi" Type="VI" URL="../CreateResultTree_TreeItemsCleared.vi"/>
+	<Item Name="GetParent_InvalidTag_ReturnsError.vi" Type="VI" URL="../GetParent_InvalidTag_ReturnsError.vi"/>
+	<Item Name="GetParent_NoParent_ReturnsEmptyTag.vi" Type="VI" URL="../GetParent_NoParent_ReturnsEmptyTag.vi"/>
+	<Item Name="GetParent_Root_ReturnsError.vi" Type="VI" URL="../GetParent_Root_ReturnsError.vi"/>
+	<Item Name="GetParent_WithParent_ReturnsParentTag.vi" Type="VI" URL="../GetParent_WithParent_ReturnsParentTag.vi"/>
 	<Item Name="SetDuration_InvalidTag_ReturnsError.vi" Type="VI" URL="../SetDuration_InvalidTag_ReturnsError.vi"/>
 	<Item Name="SetDuration_ValueHasUnit.vi" Type="VI" URL="../SetDuration_ValueHasUnit.vi"/>
 	<Item Name="SetErrorMessage_InvalidTag_ReturnsError.vi" Type="VI" URL="../SetErrorMessage_InvalidTag_ReturnsError.vi"/>
