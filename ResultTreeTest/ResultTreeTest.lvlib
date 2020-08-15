@@ -4,21 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="AddTestSuite_NoParent_AddedToRoot.vi" Type="VI" URL="../AddTestSuite_NoParent_AddedToRoot.vi"/>
-	<Item Name="AddTestSuite_NoParent_DefaultValuesSet.vi" Type="VI" URL="../AddTestSuite_NoParent_DefaultValuesSet.vi"/>
-	<Item Name="AddTestSuite_NoParent_TagNameIncludesPrefixAndName.vi" Type="VI" URL="../AddTestSuite_NoParent_TagNameIncludesPrefixAndName.vi"/>
-	<Item Name="AddTestSuite_NoParent_TreeHasTagWithPrefixAndName.vi" Type="VI" URL="../AddTestSuite_NoParent_TreeHasTagWithPrefixAndName.vi"/>
-	<Item Name="AddTestSuite_WithParent_AddedToParent.vi" Type="VI" URL="../AddTestSuite_WithParent_AddedToParent.vi"/>
-	<Item Name="AddTestSuite_WithParent_TagNameIncludesParentTag.vi" Type="VI" URL="../AddTestSuite_WithParent_TagNameIncludesParentTag.vi"/>
-	<Item Name="AddTestSuite_WithParent_TreeHasTag.vi" Type="VI" URL="../AddTestSuite_WithParent_TreeHasTag.vi"/>
-	<Item Name="CreateResultTree_ColumnHeadersSet.vi" Type="VI" URL="../CreateResultTree_ColumnHeadersSet.vi"/>
-	<Item Name="CreateResultTree_TreeItemsCleared.vi" Type="VI" URL="../CreateResultTree_TreeItemsCleared.vi"/>
-	<Item Name="GetParent_InvalidTag_ReturnsError.vi" Type="VI" URL="../GetParent_InvalidTag_ReturnsError.vi"/>
-	<Item Name="GetParent_NoParent_ReturnsEmptyTag.vi" Type="VI" URL="../GetParent_NoParent_ReturnsEmptyTag.vi"/>
-	<Item Name="GetParent_Root_ReturnsError.vi" Type="VI" URL="../GetParent_Root_ReturnsError.vi"/>
-	<Item Name="GetParent_WithParent_ReturnsParentTag.vi" Type="VI" URL="../GetParent_WithParent_ReturnsParentTag.vi"/>
-	<Item Name="SetDuration_InvalidTag_ReturnsError.vi" Type="VI" URL="../SetDuration_InvalidTag_ReturnsError.vi"/>
-	<Item Name="SetDuration_ValueHasUnit.vi" Type="VI" URL="../SetDuration_ValueHasUnit.vi"/>
-	<Item Name="SetErrorMessage_InvalidTag_ReturnsError.vi" Type="VI" URL="../SetErrorMessage_InvalidTag_ReturnsError.vi"/>
-	<Item Name="SetErrorMessage_ValueContainsMessage.vi" Type="VI" URL="../SetErrorMessage_ValueContainsMessage.vi"/>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="AddTestSuite.lvlib" Type="Library" URL="../AddTestSuite/AddTestSuite.lvlib"/>
+	<Item Name="CreateResultTree.lvlib" Type="Library" URL="../CreateResultTree/CreateResultTree.lvlib"/>
+	<Item Name="GetParent.lvlib" Type="Library" URL="../GetParent/GetParent.lvlib"/>
+	<Item Name="SetDuration.lvlib" Type="Library" URL="../SetDuration/SetDuration.lvlib"/>
+	<Item Name="SetErrorMessage.lvlib" Type="Library" URL="../SetErrorMessage/SetErrorMessage.lvlib"/>
 </Library>
