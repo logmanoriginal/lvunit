@@ -40,6 +40,8 @@
 		<Item Name="TestListener.lvclass" Type="LVClass" URL="../TestListener/TestListener.lvclass"/>
 		<Item Name="TestExplorer.lvlib" Type="Library" URL="../TestExplorer/TestExplorer.lvlib"/>
 		<Item Name="__RunTestsInCurrentProject.vi" Type="VI" URL="../__RunTestsInCurrentProject.vi"/>
+		<Item Name="ResultTree.lvclass" Type="LVClass" URL="../ResultTree/ResultTree.lvclass"/>
+		<Item Name="ResultTreeTest.lvlib" Type="Library" URL="../ResultTreeTest/ResultTreeTest.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
