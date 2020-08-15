@@ -8,4 +8,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="testInvalidRefnum.vi" Type="VI" URL="../testInvalidRefnum.vi"/>
 	<Item Name="testNoError.vi" Type="VI" URL="../testNoError.vi"/>
+	<Item Name="ToString_ReturnsVITitle.vi" Type="VI" URL="../ToString_ReturnsVITitle.vi"/>
 </Library>

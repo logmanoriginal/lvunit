@@ -12,4 +12,5 @@
 	<Item Name="testPersistentData.vi" Type="VI" URL="../testPersistentData.vi"/>
 	<Item Name="testWrongControlName.vi" Type="VI" URL="../testWrongControlName.vi"/>
 	<Item Name="testWrongDataSet.vi" Type="VI" URL="../testWrongDataSet.vi"/>
+	<Item Name="ToString_ReturnsVITitleAndDataName.vi" Type="VI" URL="../ToString_ReturnsVITitleAndDataName.vi"/>
 </Library>
