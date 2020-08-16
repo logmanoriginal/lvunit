@@ -4,6 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Support.lvlib" Type="Library" URL="../Support/Support.lvlib">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="EndTestSuite_CallsListenerEndTestSuite.vi" Type="VI" URL="../EndTestSuite_CallsListenerEndTestSuite.vi"/>
 	<Item Name="Run_CallsListenerEndTest.vi" Type="VI" URL="../Run_CallsListenerEndTest.vi"/>
 	<Item Name="Run_CallsListenerStartTest.vi" Type="VI" URL="../Run_CallsListenerStartTest.vi"/>
