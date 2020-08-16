@@ -26,6 +26,7 @@
 			<Item Name="TestSuite.lvclass" Type="LVClass" URL="../TestSuite/TestSuite.lvclass"/>
 			<Item Name="TestSuiteTest.lvlib" Type="Library" URL="../TestSuiteTest/TestSuiteTest.lvlib"/>
 			<Item Name="TestSuiteTestSupport.lvlib" Type="Library" URL="../TestSuiteTestSupport/TestSuiteTestSupport.lvlib"/>
+			<Item Name="Test.lvclass" Type="LVClass" URL="../Test/Test.lvclass"/>
 		</Item>
 		<Item Name=".vipc" Type="Document" URL="../.vipc"/>
 		<Item Name="Assertion.lvlib" Type="Library" URL="../Assertion/Assertion.lvlib"/>
