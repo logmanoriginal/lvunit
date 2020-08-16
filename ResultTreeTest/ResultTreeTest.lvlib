@@ -11,4 +11,5 @@
 	<Item Name="SetDuration.lvlib" Type="Library" URL="../SetDuration/SetDuration.lvlib"/>
 	<Item Name="SetErrorMessage.lvlib" Type="Library" URL="../SetErrorMessage/SetErrorMessage.lvlib"/>
 	<Item Name="AddTestCase.lvlib" Type="Library" URL="../AddTestCase/AddTestCase.lvlib"/>
+	<Item Name="SetIcon.lvlib" Type="Library" URL="../SetIcon/SetIcon.lvlib"/>
 </Library>
