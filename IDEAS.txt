@@ -1,0 +1,3 @@
+- Create a listener to add/update items in the tree. This should replace the EventListener.
+- Add separate classes to locate tests and test suites on disk. This will also allow us to populate the result tree before any test has started.
+- Create a VIPB for LVUnit.
