@@ -36,9 +36,10 @@
 		<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
 		<Item Name="ErrorTest.lvlib" Type="Library" URL="../ErrorTest/ErrorTest.lvlib"/>
 		<Item Name="TestListener.lvclass" Type="LVClass" URL="../TestListener/TestListener.lvclass"/>
-		<Item Name="TestExplorer.lvlib" Type="Library" URL="../TestExplorer/TestExplorer.lvlib"/>
 		<Item Name="ResultTree.lvclass" Type="LVClass" URL="../ResultTree/ResultTree.lvclass"/>
 		<Item Name="ResultTreeTest.lvlib" Type="Library" URL="../ResultTreeTest/ResultTreeTest.lvlib"/>
+		<Item Name="ResultTreeListener.lvclass" Type="LVClass" URL="../ResultTreeListener/ResultTreeListener.lvclass"/>
+		<Item Name="ResultTreeListenerTest.lvlib" Type="Library" URL="../ResultTreeListenerTest/ResultTreeListenerTest.lvlib"/>
 		<Item Name="RunTestsInCurrentProject.vi" Type="VI" URL="../RunTestsInCurrentProject.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
