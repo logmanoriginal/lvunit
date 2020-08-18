@@ -23,4 +23,6 @@
 	<Item Name="AddFailure_FailureIconSet.vi" Type="VI" URL="../AddFailure_FailureIconSet.vi"/>
 	<Item Name="AddFailure_FailureMessageSet.vi" Type="VI" URL="../AddFailure_FailureMessageSet.vi"/>
 	<Item Name="AddPassed_PassedIconSet.vi" Type="VI" URL="../AddPassed_PassedIconSet.vi"/>
+	<Item Name="AddFailure_WithParent_ParentFailureIconSet.vi" Type="VI" URL="../AddFailure_WithParent_ParentFailureIconSet.vi"/>
+	<Item Name="AddFailure_WithGrandparent_GrandparentFailureIconSet.vi" Type="VI" URL="../AddFailure_WithGrandparent_GrandparentFailureIconSet.vi"/>
 </Library>
