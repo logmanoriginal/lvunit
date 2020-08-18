@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-08-16 14:44:17" Modified_Date="2020-08-17 20:50:12" Creator="Pascal Neuperger" Comments="" ID="1a0f0b6e561c03e1996e6ee25a69ba0c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-08-16 14:44:17" Modified_Date="2020-08-18 20:06:19" Creator="Pascal Neuperger" Comments="" ID="5142333572b6c92d2d2ba2055047502e">
   <Library_General_Settings>
     <Package_File_Name>LVUnit_lib_LVUnit</Package_File_Name>
-    <Library_Version>0.1.0.6</Library_Version>
+    <Library_Version>0.1.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -124,9 +124,6 @@
         <Path>LVUnit.lvproj</Path>
       </Exclusions>
       <Exclusions>
-        <Path>IDEAS.txt</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>.gitignore</Path>
       </Exclusions>
       <Exclusions>
@@ -158,6 +155,12 @@
       </Exclusions>
       <Exclusions>
         <Path>ResultTreeListenerTest</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>failed.png</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>passed.png</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -260,7 +263,7 @@ Licensed under the BSD 3-Clause License.</Text_to_Add>
         <Path>Assertion</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C9F0DDD5C1B5C86ADDA66E553351CF9E</GUID>
+      <GUID>D6DB0B65B51F2B118CD05B3FDDFC92A0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -491,7 +494,7 @@ Licensed under the BSD 3-Clause License.</Text_to_Add>
         <Path>Assertion\AssertTrue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>907CC82C81D274896A83B741C5BE6551</GUID>
+      <GUID>91926B170E1749CE42237A7885BB3943</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
