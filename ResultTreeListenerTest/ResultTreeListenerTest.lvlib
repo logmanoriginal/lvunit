@@ -25,4 +25,7 @@
 	<Item Name="AddPassed_PassedIconSet.vi" Type="VI" URL="../AddPassed_PassedIconSet.vi"/>
 	<Item Name="AddFailure_WithParent_ParentFailureIconSet.vi" Type="VI" URL="../AddFailure_WithParent_ParentFailureIconSet.vi"/>
 	<Item Name="AddFailure_WithGrandparent_GrandparentFailureIconSet.vi" Type="VI" URL="../AddFailure_WithGrandparent_GrandparentFailureIconSet.vi"/>
+	<Item Name="EndTestSuite_NoFailure_PassedIconSet.vi" Type="VI" URL="../EndTestSuite_NoFailure_PassedIconSet.vi"/>
+	<Item Name="EndTestSuite_AfterSiblingFailure_PassedIconSet.vi" Type="VI" URL="../EndTestSuite_AfterSiblingFailure_PassedIconSet.vi"/>
+	<Item Name="EndTestSuite_WithFailureAtSibling_FailedIconSet.vi" Type="VI" URL="../EndTestSuite_WithFailureAtSibling_FailedIconSet.vi"/>
 </Library>
