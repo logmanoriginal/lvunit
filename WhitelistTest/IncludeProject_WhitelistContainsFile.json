@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Project",
+        "data": {
+            "expected_file": "FakeProject.lvproj"
+        }
+    },
+    {
+        "name": "Main",
+        "data": {
+            "expected_file": "Main.vi"
+        }
+    },
+    {
+        "name": "Documents\\Document",
+        "data": {
+            "expected_file": "Documents\\Document.txt"
+        }
+    },
+    {
+        "name": "Library\\Function",
+        "data": {
+            "expected_file": "Library\\Function.vi"
+        }
+    },
+    {
+        "name": "Library\\Function2",
+        "data": {
+            "expected_file": "Library\\Function2.vi"
+        }
+    }
+]

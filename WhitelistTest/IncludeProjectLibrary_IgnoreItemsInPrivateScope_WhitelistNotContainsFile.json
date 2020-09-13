@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Function",
+        "data": {
+            "file": "Function.vi"
+        }
+    },
+    {
+        "name": "ControlTemplate",
+        "data": {
+            "file": "ControlTemplate.ctt"
+        }
+    },
+    {
+        "name": "Library\\Function",
+        "data": {
+            "file": "Library\\Function.vi"
+        }
+    }
+]
