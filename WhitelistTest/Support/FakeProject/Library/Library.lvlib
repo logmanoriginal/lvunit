@@ -8,4 +8,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Function2.vi" Type="VI" URL="../Function2.vi"/>
+	<Item Name="PrivateSubLibrary.lvlib" Type="Library" URL="../PrivateSubLibrary/PrivateSubLibrary.lvlib">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </Library>

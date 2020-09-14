@@ -4,5 +4,17 @@
         "data": {
             "expected_file": "Library\\Function.vi"
         }
+    },
+    {
+        "name": "Library\\PrivateSubLibrary",
+        "data": {
+            "expected_file": "Library\\PrivateSubLibrary.lvlib"
+        }
+    },
+    {
+        "name": "Library\\PrivateSubLibrary\\Function",
+        "data": {
+            "expected_file": "Library\\PrivateSubLibrary\\Function.vi"
+        }
     }
 ]
