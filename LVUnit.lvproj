@@ -40,10 +40,10 @@
 		<Item Name="ResultTreeTest.lvlib" Type="Library" URL="../ResultTreeTest/ResultTreeTest.lvlib"/>
 		<Item Name="ResultTreeListener.lvclass" Type="LVClass" URL="../ResultTreeListener/ResultTreeListener.lvclass"/>
 		<Item Name="ResultTreeListenerTest.lvlib" Type="Library" URL="../ResultTreeListenerTest/ResultTreeListenerTest.lvlib"/>
-		<Item Name="RunTestsInCurrentProject.vi" Type="VI" URL="../RunTestsInCurrentProject.vi"/>
 		<Item Name="Whitelist.lvclass" Type="LVClass" URL="../Whitelist/Whitelist.lvclass"/>
 		<Item Name="WhitelistTest.lvlib" Type="Library" URL="../WhitelistTest/WhitelistTest.lvlib"/>
 		<Item Name="GetOwningLibrary.vi" Type="VI" URL="../GetOwningLibrary.vi"/>
+		<Item Name="TestExplorer.lvlib" Type="Library" URL="../TestExplorer/TestExplorer.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -52,7 +52,6 @@
 				<Item Name="JDP Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/JDP Utility.lvlib"/>
 				<Item Name="JSONtext.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSONtext.lvlib"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
@@ -89,9 +88,7 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Set Difference.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Difference.vim"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
