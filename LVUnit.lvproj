@@ -13,40 +13,56 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Runner" Type="Folder">
+		<Item Name="Core" Type="Folder">
+			<Item Name="TestBuilder.lvclass" Type="LVClass" URL="../TestBuilder/TestBuilder.lvclass"/>
+			<Item Name="CodeCoverage.lvclass" Type="LVClass" URL="../CodeCoverage/CodeCoverage.lvclass"/>
+			<Item Name="Assertion.lvlib" Type="Library" URL="../Assertion/Assertion.lvlib"/>
+			<Item Name="Constraint.lvlib" Type="Library" URL="../Constraint/Constraint.lvlib"/>
+			<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
+			<Item Name="TestListener.lvclass" Type="LVClass" URL="../TestListener/TestListener.lvclass"/>
+			<Item Name="Whitelist.lvclass" Type="LVClass" URL="../Whitelist/Whitelist.lvclass"/>
 			<Item Name="TestCase.lvlib" Type="Library" URL="../TestCase/TestCase.lvlib"/>
-			<Item Name="TestCaseTest.lvlib" Type="Library" URL="../TestCaseTest/TestCaseTest.lvlib"/>
 			<Item Name="TestFailure.lvclass" Type="LVClass" URL="../TestFailure/TestFailure.lvclass"/>
-			<Item Name="TestFailureTest.lvlib" Type="Library" URL="../TestFailureTest/TestFailureTest.lvlib"/>
 			<Item Name="TestResult.lvclass" Type="LVClass" URL="../TestResult/TestResult.lvclass"/>
-			<Item Name="TestResultTest.lvlib" Type="Library" URL="../TestResultTest/TestResultTest.lvlib"/>
 			<Item Name="TestRunner.lvclass" Type="LVClass" URL="../TestRunner/TestRunner.lvclass"/>
 			<Item Name="TestSuite.lvclass" Type="LVClass" URL="../TestSuite/TestSuite.lvclass"/>
-			<Item Name="TestSuiteTest.lvlib" Type="Library" URL="../TestSuiteTest/TestSuiteTest.lvlib"/>
 			<Item Name="Test.lvclass" Type="LVClass" URL="../Test/Test.lvclass"/>
+		</Item>
+		<Item Name="Core.Tests" Type="Folder">
+			<Item Name="CodeCoverageTest.lvlib" Type="Library" URL="../CodeCoverageTest/CodeCoverageTest.lvlib"/>
+			<Item Name="AssertionTest.lvlib" Type="Library" URL="../AssertionTest/AssertionTest.lvlib"/>
+			<Item Name="ConstraintTest.lvlib" Type="Library" URL="../ConstraintTest/ConstraintTest.lvlib"/>
+			<Item Name="ErrorTest.lvlib" Type="Library" URL="../ErrorTest/ErrorTest.lvlib"/>
+			<Item Name="WhitelistTest.lvlib" Type="Library" URL="../WhitelistTest/WhitelistTest.lvlib"/>
+			<Item Name="TestCaseTest.lvlib" Type="Library" URL="../TestCaseTest/TestCaseTest.lvlib"/>
+			<Item Name="TestFailureTest.lvlib" Type="Library" URL="../TestFailureTest/TestFailureTest.lvlib"/>
+			<Item Name="TestResultTest.lvlib" Type="Library" URL="../TestResultTest/TestResultTest.lvlib"/>
+			<Item Name="TestSuiteTest.lvlib" Type="Library" URL="../TestSuiteTest/TestSuiteTest.lvlib"/>
+		</Item>
+		<Item Name="LVUnit" Type="Folder">
+			<Item Name="LVUnitTestBuilder.lvclass" Type="LVClass" URL="../LVUnitTestBuilder/LVUnitTestBuilder.lvclass"/>
+		</Item>
+		<Item Name="LVUnit.Tests" Type="Folder">
+			<Item Name="LVUnitTestBuilderTest.lvlib" Type="Library" URL="../LVUnitTestBuilderTest/LVUnitTestBuilderTest.lvlib"/>
+		</Item>
+		<Item Name="UX" Type="Folder">
+			<Item Name="ResultTree.lvclass" Type="LVClass" URL="../ResultTree/ResultTree.lvclass"/>
+			<Item Name="ResultTreeListener.lvclass" Type="LVClass" URL="../ResultTreeListener/ResultTreeListener.lvclass"/>
+			<Item Name="TestExplorer.lvlib" Type="Library" URL="../TestExplorer/TestExplorer.lvlib"/>
+		</Item>
+		<Item Name="UX.Tests" Type="Folder">
+			<Item Name="ResultTreeTest.lvlib" Type="Library" URL="../ResultTreeTest/ResultTreeTest.lvlib"/>
+			<Item Name="ResultTreeListenerTest.lvlib" Type="Library" URL="../ResultTreeListenerTest/ResultTreeListenerTest.lvlib"/>
+		</Item>
+		<Item Name="Unit Test Framework" Type="Folder">
+			<Item Name="IsUnitTestFrameworkInstalled.vi" Type="VI" URL="../IsUnitTestFrameworkInstalled.vi"/>
+			<Item Name="IsUserDefinedTestVI.vi" Type="VI" URL="../IsUserDefinedTestVI.vi"/>
+		</Item>
+		<Item Name="Common" Type="Folder">
+			<Item Name="GetOwningLibrary.vi" Type="VI" URL="../GetOwningLibrary.vi"/>
 		</Item>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
 		<Item Name=".vipc" Type="Document" URL="../.vipc"/>
-		<Item Name="Assertion.lvlib" Type="Library" URL="../Assertion/Assertion.lvlib"/>
-		<Item Name="AssertionTest.lvlib" Type="Library" URL="../AssertionTest/AssertionTest.lvlib"/>
-		<Item Name="CodeCoverage.lvclass" Type="LVClass" URL="../CodeCoverage/CodeCoverage.lvclass"/>
-		<Item Name="CodeCoverageTest.lvlib" Type="Library" URL="../CodeCoverageTest/CodeCoverageTest.lvlib"/>
-		<Item Name="Constraint.lvlib" Type="Library" URL="../Constraint/Constraint.lvlib"/>
-		<Item Name="ConstraintTest.lvlib" Type="Library" URL="../ConstraintTest/ConstraintTest.lvlib"/>
-		<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
-		<Item Name="ErrorTest.lvlib" Type="Library" URL="../ErrorTest/ErrorTest.lvlib"/>
-		<Item Name="TestListener.lvclass" Type="LVClass" URL="../TestListener/TestListener.lvclass"/>
-		<Item Name="ResultTree.lvclass" Type="LVClass" URL="../ResultTree/ResultTree.lvclass"/>
-		<Item Name="ResultTreeTest.lvlib" Type="Library" URL="../ResultTreeTest/ResultTreeTest.lvlib"/>
-		<Item Name="ResultTreeListener.lvclass" Type="LVClass" URL="../ResultTreeListener/ResultTreeListener.lvclass"/>
-		<Item Name="ResultTreeListenerTest.lvlib" Type="Library" URL="../ResultTreeListenerTest/ResultTreeListenerTest.lvlib"/>
-		<Item Name="Whitelist.lvclass" Type="LVClass" URL="../Whitelist/Whitelist.lvclass"/>
-		<Item Name="WhitelistTest.lvlib" Type="Library" URL="../WhitelistTest/WhitelistTest.lvlib"/>
-		<Item Name="GetOwningLibrary.vi" Type="VI" URL="../GetOwningLibrary.vi"/>
-		<Item Name="TestExplorer.lvlib" Type="Library" URL="../TestExplorer/TestExplorer.lvlib"/>
-		<Item Name="TestBuilder.lvclass" Type="LVClass" URL="../TestBuilder/TestBuilder.lvclass"/>
-		<Item Name="LVUnitTestBuilder.lvclass" Type="LVClass" URL="../LVUnitTestBuilder/LVUnitTestBuilder.lvclass"/>
-		<Item Name="LVUnitTestBuilderTest.lvlib" Type="Library" URL="../LVUnitTestBuilderTest/LVUnitTestBuilderTest.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -91,6 +107,7 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
