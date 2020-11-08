@@ -9,12 +9,5 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="EndTestSuite_CallsListenerEndTestSuite.vi" Type="VI" URL="../EndTestSuite_CallsListenerEndTestSuite.vi"/>
-	<Item Name="Run_CallsListenerEndTest.vi" Type="VI" URL="../Run_CallsListenerEndTest.vi"/>
-	<Item Name="Run_CallsListenerStartTest.vi" Type="VI" URL="../Run_CallsListenerStartTest.vi"/>
-	<Item Name="Run_TestFailure_CallsListenerAddFailure.vi" Type="VI" URL="../Run_TestFailure_CallsListenerAddFailure.vi"/>
 	<Item Name="StartTestSuite_CallsListenerStartTestSuite.vi" Type="VI" URL="../StartTestSuite_CallsListenerStartTestSuite.vi"/>
-	<Item Name="testPassed.vi" Type="VI" URL="../testPassed.vi"/>
-	<Item Name="testRunCallsRunTest.vi" Type="VI" URL="../testRunCallsRunTest.vi"/>
-	<Item Name="testRunWithAssertionFailure.vi" Type="VI" URL="../testRunWithAssertionFailure.vi"/>
-	<Item Name="testTime.vi" Type="VI" URL="../testTime.vi"/>
 </Library>

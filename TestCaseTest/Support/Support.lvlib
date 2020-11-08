@@ -9,5 +9,4 @@
 	<Item Name="FakeFact.vi" Type="VI" URL="../FakeFact.vi"/>
 	<Item Name="FakeTheory.vi" Type="VI" URL="../FakeTheory.vi"/>
 	<Item Name="FakeTheoryWithControlsNotOnConnectorPane.vi" Type="VI" URL="../FakeTheoryWithControlsNotOnConnectorPane.vi"/>
-	<Item Name="TestResultMock.lvclass" Type="LVClass" URL="../TestResultMock/TestResultMock.lvclass"/>
 </Library>

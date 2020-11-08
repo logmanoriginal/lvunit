@@ -7,8 +7,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="testError.vi" Type="VI" URL="../testError.vi"/>
-	<Item Name="testRunCalled.vi" Type="VI" URL="../../testRunCalled.vi"/>
-	<Item Name="testRunCalledForEachTestCase.vi" Type="VI" URL="../testRunCalledForEachTestCase.vi"/>
-	<Item Name="testRunNotCalled.vi" Type="VI" URL="../../testRunNotCalled.vi"/>
 	<Item Name="testTestCaseExecuted.vi" Type="VI" URL="../testTestCaseExecuted.vi"/>
 </Library>

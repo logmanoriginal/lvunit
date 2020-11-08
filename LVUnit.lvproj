@@ -44,6 +44,9 @@
 		<Item Name="WhitelistTest.lvlib" Type="Library" URL="../WhitelistTest/WhitelistTest.lvlib"/>
 		<Item Name="GetOwningLibrary.vi" Type="VI" URL="../GetOwningLibrary.vi"/>
 		<Item Name="TestExplorer.lvlib" Type="Library" URL="../TestExplorer/TestExplorer.lvlib"/>
+		<Item Name="TestBuilder.lvclass" Type="LVClass" URL="../TestBuilder/TestBuilder.lvclass"/>
+		<Item Name="LVUnitTestBuilder.lvclass" Type="LVClass" URL="../LVUnitTestBuilder/LVUnitTestBuilder.lvclass"/>
+		<Item Name="LVUnitTestBuilderTest.lvlib" Type="Library" URL="../LVUnitTestBuilderTest/LVUnitTestBuilderTest.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>

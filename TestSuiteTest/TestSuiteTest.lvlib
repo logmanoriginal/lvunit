@@ -11,10 +11,7 @@
 	<Item Name="Support.lvlib" Type="Library" URL="../Support/Support.lvlib">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Create.lvlib" Type="Library" URL="../Create/Create.lvlib"/>
 	<Item Name="Run.lvlib" Type="Library" URL="../Run/Run.lvlib"/>
-	<Item Name="AddTestSuite_TotalCountIncreases.vi" Type="VI" URL="../AddTestSuite_TotalCountIncreases.vi"/>
 	<Item Name="testCount.vi" Type="VI" URL="../testCount.vi"/>
 	<Item Name="testEmptyCount.vi" Type="VI" URL="../testEmptyCount.vi"/>
-	<Item Name="Create_Library_NameMatchesLibraryName.vi" Type="VI" URL="../Create_Library_NameMatchesLibraryName.vi"/>
 </Library>

@@ -10,6 +10,5 @@
 	</Item>
 	<Item Name="Fact.lvlib" Type="Library" URL="../Fact/Fact.lvlib"/>
 	<Item Name="Theory.lvlib" Type="Library" URL="../Theory/Theory.lvlib"/>
-	<Item Name="testRunCalled.vi" Type="VI" URL="../testRunCalled.vi"/>
 	<Item Name="RunTest_ReportsNotImplementedError.vi" Type="VI" URL="../RunTest_ReportsNotImplementedError.vi"/>
 </Library>
