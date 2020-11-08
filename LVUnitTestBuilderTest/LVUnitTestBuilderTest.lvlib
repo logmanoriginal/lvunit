@@ -8,10 +8,10 @@
 	<Item Name="BuildTestFromProjectItem_Library_BuildsTestSuite.vi" Type="VI" URL="../BuildTestFromProjectItem_Library_BuildsTestSuite.vi"/>
 	<Item Name="BuildTestFromProjectItem_Library_SetsTestSuiteName.vi" Type="VI" URL="../BuildTestFromProjectItem_Library_SetsTestSuiteName.vi"/>
 	<Item Name="BuildTestFromProjectItem_LibraryWithFact_BuildsTestSuiteWithFact.vi" Type="VI" URL="../BuildTestFromProjectItem_LibraryWithFact_BuildsTestSuiteWithFact.vi"/>
-	<Item Name="BuildTestFromProjectItem_LibraryWithMember_BuildsTestSuiteWithTest.vi" Type="VI" URL="../BuildTestFromProjectItem_LibraryWithMember_BuildsTestSuiteWithTest.vi"/>
 	<Item Name="BuildTestFromProjectItem_LibraryWithNestedLibrary_BuildsTestSuiteWithNestedTestSuite.vi" Type="VI" URL="../BuildTestFromProjectItem_LibraryWithNestedLibrary_BuildsTestSuiteWithNestedTestSuite.vi"/>
 	<Item Name="BuildTestFromProjectItem_LibraryWithPrivateMember_BuildsEmptyTestSuite.vi" Type="VI" URL="../BuildTestFromProjectItem_LibraryWithPrivateMember_BuildsEmptyTestSuite.vi"/>
 	<Item Name="BuildTestFromProjectItem_LibraryWithTheory_BuildsTestSuiteWithTheory.vi" Type="VI" URL="../BuildTestFromProjectItem_LibraryWithTheory_BuildsTestSuiteWithTheory.vi"/>
+	<Item Name="BuildTestFromProjectItem_LibraryWithUnsupportedMemberType_BuildsEmptyTestSuite.vi" Type="VI" URL="../BuildTestFromProjectItem_LibraryWithUnsupportedMemberType_BuildsEmptyTestSuite.vi"/>
 	<Item Name="BuildTestFromProjectItem_LibraryWithUnsupportedTypes_BuildsEmptyTestSuite.vi" Type="VI" URL="../BuildTestFromProjectItem_LibraryWithUnsupportedTypes_BuildsEmptyTestSuite.vi"/>
 	<Item Name="LibraryWithFact.lvlib" Type="Library" URL="../LibraryWithFact/LibraryWithFact.lvlib">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-08-16 14:44:17" Modified_Date="2020-11-08 14:10:58" Creator="Pascal Neuperger" Comments="" ID="d470d9c97c18c6de5e1af38c9f98bca1">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-08-16 14:44:17" Modified_Date="2020-11-08 14:49:49" Creator="Pascal Neuperger" Comments="" ID="a862f9372ee70216fe41f2fdc5580ec2">
   <Library_General_Settings>
     <Package_File_Name>LVUnit_lib_LVUnit</Package_File_Name>
-    <Library_Version>0.1.0.8</Library_Version>
+    <Library_Version>0.1.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -269,7 +269,7 @@ Licensed under the BSD 3-Clause License.</Text_to_Add>
         <Path>Assertion</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E31B1CADD6AADC95D49A761FBC28BD8</GUID>
+      <GUID>631EDE91DFCB1F405BCD34748F9FE30C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -500,7 +500,7 @@ Licensed under the BSD 3-Clause License.</Text_to_Add>
         <Path>Assertion\AssertTrue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>317CFF03A2500E2B16AFF122B4E17E63</GUID>
+      <GUID>8BCD482F205462787562EEABE2912270</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
