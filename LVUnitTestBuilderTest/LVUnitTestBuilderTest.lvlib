@@ -11,7 +11,7 @@
 	<Item Name="BuildTestFromProjectItem_LibraryWithNestedLibrary_BuildsTestSuiteWithNestedTestSuite.vi" Type="VI" URL="../BuildTestFromProjectItem_LibraryWithNestedLibrary_BuildsTestSuiteWithNestedTestSuite.vi"/>
 	<Item Name="BuildTestFromProjectItem_LibraryWithPrivateMember_BuildsEmptyTestSuite.vi" Type="VI" URL="../BuildTestFromProjectItem_LibraryWithPrivateMember_BuildsEmptyTestSuite.vi"/>
 	<Item Name="BuildTestFromProjectItem_LibraryWithTheory_BuildsTestSuiteWithTheory.vi" Type="VI" URL="../BuildTestFromProjectItem_LibraryWithTheory_BuildsTestSuiteWithTheory.vi"/>
-	<Item Name="BuildTestFromProjectItem_LibraryWithUnsupportedMemberType_BuildsEmptyTestSuite.vi" Type="VI" URL="../BuildTestFromProjectItem_LibraryWithUnsupportedMemberType_BuildsEmptyTestSuite.vi"/>
+	<Item Name="BuildTestFromProjectItem_LibraryWithUnsupportedMember_ReturnsError.vi" Type="VI" URL="../BuildTestFromProjectItem_LibraryWithUnsupportedMember_ReturnsError.vi"/>
 	<Item Name="BuildTestFromProjectItem_LibraryWithUnsupportedTypes_BuildsEmptyTestSuite.vi" Type="VI" URL="../BuildTestFromProjectItem_LibraryWithUnsupportedTypes_BuildsEmptyTestSuite.vi"/>
 	<Item Name="LibraryWithFact.lvlib" Type="Library" URL="../LibraryWithFact/LibraryWithFact.lvlib">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
