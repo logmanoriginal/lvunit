@@ -12,6 +12,5 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Run.lvlib" Type="Library" URL="../Run/Run.lvlib"/>
-	<Item Name="testCount.vi" Type="VI" URL="../testCount.vi"/>
 	<Item Name="testEmptyCount.vi" Type="VI" URL="../testEmptyCount.vi"/>
 </Library>

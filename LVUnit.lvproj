@@ -21,12 +21,13 @@
 			<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
 			<Item Name="TestListener.lvclass" Type="LVClass" URL="../TestListener/TestListener.lvclass"/>
 			<Item Name="Whitelist.lvclass" Type="LVClass" URL="../Whitelist/Whitelist.lvclass"/>
-			<Item Name="TestCase.lvlib" Type="Library" URL="../TestCase/TestCase.lvlib"/>
 			<Item Name="TestFailure.lvclass" Type="LVClass" URL="../TestFailure/TestFailure.lvclass"/>
 			<Item Name="TestResult.lvclass" Type="LVClass" URL="../TestResult/TestResult.lvclass"/>
 			<Item Name="TestRunner.lvclass" Type="LVClass" URL="../TestRunner/TestRunner.lvclass"/>
 			<Item Name="TestSuite.lvclass" Type="LVClass" URL="../TestSuite/TestSuite.lvclass"/>
 			<Item Name="Test.lvclass" Type="LVClass" URL="../Test/Test.lvclass"/>
+			<Item Name="Fact.lvclass" Type="LVClass" URL="../Fact/Fact.lvclass"/>
+			<Item Name="Theory.lvclass" Type="LVClass" URL="../Theory/Theory.lvclass"/>
 		</Item>
 		<Item Name="Core.Tests" Type="Folder">
 			<Item Name="CodeCoverageTest.lvlib" Type="Library" URL="../CodeCoverageTest/CodeCoverageTest.lvlib"/>
@@ -34,10 +35,11 @@
 			<Item Name="ConstraintTest.lvlib" Type="Library" URL="../ConstraintTest/ConstraintTest.lvlib"/>
 			<Item Name="ErrorTest.lvlib" Type="Library" URL="../ErrorTest/ErrorTest.lvlib"/>
 			<Item Name="WhitelistTest.lvlib" Type="Library" URL="../WhitelistTest/WhitelistTest.lvlib"/>
-			<Item Name="TestCaseTest.lvlib" Type="Library" URL="../TestCaseTest/TestCaseTest.lvlib"/>
 			<Item Name="TestFailureTest.lvlib" Type="Library" URL="../TestFailureTest/TestFailureTest.lvlib"/>
 			<Item Name="TestResultTest.lvlib" Type="Library" URL="../TestResultTest/TestResultTest.lvlib"/>
 			<Item Name="TestSuiteTest.lvlib" Type="Library" URL="../TestSuiteTest/TestSuiteTest.lvlib"/>
+			<Item Name="TheoryTest.lvlib" Type="Library" URL="../TheoryTest/TheoryTest.lvlib"/>
+			<Item Name="FactTest.lvlib" Type="Library" URL="../FactTest/FactTest.lvlib"/>
 		</Item>
 		<Item Name="LVUnit" Type="Folder">
 			<Item Name="LVUnitTestBuilder.lvclass" Type="LVClass" URL="../LVUnitTestBuilder/LVUnitTestBuilder.lvclass"/>
