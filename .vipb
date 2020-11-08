@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-08-16 14:44:17" Modified_Date="2020-08-18 20:06:19" Creator="Pascal Neuperger" Comments="" ID="5142333572b6c92d2d2ba2055047502e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-08-16 14:44:17" Modified_Date="2020-11-08 14:10:58" Creator="Pascal Neuperger" Comments="" ID="d470d9c97c18c6de5e1af38c9f98bca1">
   <Library_General_Settings>
     <Package_File_Name>LVUnit_lib_LVUnit</Package_File_Name>
-    <Library_Version>0.1.0.7</Library_Version>
+    <Library_Version>0.1.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -105,7 +105,7 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>RunTestsInCurrentProject.vi</Path>
+        <Path>TestExplorer/TestExplorer.vi</Path>
         <Destination>7</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -161,6 +161,12 @@
       </Exclusions>
       <Exclusions>
         <Path>passed.png</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>LVUnitTestBuilderTest</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>WhitelistTest</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -263,7 +269,7 @@ Licensed under the BSD 3-Clause License.</Text_to_Add>
         <Path>Assertion</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D6DB0B65B51F2B118CD05B3FDDFC92A0</GUID>
+      <GUID>4E31B1CADD6AADC95D49A761FBC28BD8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -494,7 +500,7 @@ Licensed under the BSD 3-Clause License.</Text_to_Add>
         <Path>Assertion\AssertTrue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>91926B170E1749CE42237A7885BB3943</GUID>
+      <GUID>317CFF03A2500E2B16AFF122B4E17E63</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
