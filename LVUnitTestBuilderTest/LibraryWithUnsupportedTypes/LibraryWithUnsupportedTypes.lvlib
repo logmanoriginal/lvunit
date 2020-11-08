@@ -7,4 +7,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Document.txt" Type="Document" URL="../Document.txt"/>
+	<Item Name="TestItem.lvtest" Type="TestItem" URL="../TestItem.lvtest">
+		<Property Name="utf.vector.test.bind" Type="Str">89CE61BC-BB59-B6D5-5ABF-1E936BD3F19A</Property>
+	</Item>
+	<Item Name="TestVectorItem.lvvect" Type="TestVectorItem" URL="../TestVectorItem.lvvect"/>
 </Library>
