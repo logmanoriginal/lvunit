@@ -10,9 +10,12 @@
 	<Item Name="AssertErrorCode.lvlib" Type="Library" URL="../AssertErrorCode/AssertErrorCode.lvlib"/>
 	<Item Name="ErrorMessageContainsString.lvlib" Type="Library" URL="../AssertErrorMessageContainsString/ErrorMessageContainsString.lvlib"/>
 	<Item Name="AssertFalse.lvlib" Type="Library" URL="../AssertFalse/AssertFalse.lvlib"/>
+	<Item Name="AssertIsBoolean.lvlib" Type="Library" URL="../AssertIsBoolean/AssertIsBoolean.lvlib"/>
+	<Item Name="AssertIsNotBoolean.lvlib" Type="Library" URL="../AssertIsNotBoolean/AssertIsNotBoolean.lvlib"/>
 	<Item Name="AssertNoError.lvlib" Type="Library" URL="../AssertNoError/AssertNoError.lvlib"/>
 	<Item Name="AssertNotCount.lvlib" Type="Library" URL="../AssertNotCount/AssertNotCount.lvlib"/>
 	<Item Name="AssertNotEquals.lvlib" Type="Library" URL="../AssertNotEquals/AssertNotEquals.lvlib"/>
+	<Item Name="AssertNotRefnum.lvlib" Type="Library" URL="../AssertNotRefnum/AssertNotRefnum.lvlib"/>
 	<Item Name="AssertRefnum.lvlib" Type="Library" URL="../AssertRefnum/AssertRefnum.lvlib"/>
 	<Item Name="AssertStringContainsString.lvlib" Type="Library" URL="../AssertStringContainsString/AssertStringContainsString.lvlib"/>
 	<Item Name="AssertStringContainsStringIgnoringCase.lvlib" Type="Library" URL="../AssertStringContainsStringIgnoringCase/AssertStringContainsStringIgnoringCase.lvlib"/>
@@ -23,5 +26,4 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="testStandardErrorBehavior.vi" Type="VI" URL="../testStandardErrorBehavior.vi"/>
-	<Item Name="AssertNotRefnum.lvlib" Type="Library" URL="../AssertNotRefnum/AssertNotRefnum.lvlib"/>
 </Library>

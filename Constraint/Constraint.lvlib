@@ -32,6 +32,7 @@
 	</Item>
 	<Item Name="Type" Type="Folder">
 		<Item Name="IsRefnum.lvclass" Type="LVClass" URL="../IsRefnum/IsRefnum.lvclass"/>
+		<Item Name="IsType.lvclass" Type="LVClass" URL="../IsType/IsType.lvclass"/>
 	</Item>
 	<Item Name="Constraint.lvclass" Type="LVClass" URL="../Constraint/Constraint.lvclass"/>
 </Library>

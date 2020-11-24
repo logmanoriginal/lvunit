@@ -12,6 +12,8 @@
 	<Item Name="AssertErrorCode.vi" Type="VI" URL="../AssertErrorCode.vi"/>
 	<Item Name="AssertErrorMessageContainsString.vi" Type="VI" URL="../AssertErrorMessageContainsString.vi"/>
 	<Item Name="AssertFalse.vi" Type="VI" URL="../AssertFalse.vi"/>
+	<Item Name="AssertIsBoolean.vi" Type="VI" URL="../AssertIsBoolean.vi"/>
+	<Item Name="AssertIsNotBoolean.vi" Type="VI" URL="../AssertIsNotBoolean.vi"/>
 	<Item Name="AssertNoError.vi" Type="VI" URL="../AssertNoError.vi"/>
 	<Item Name="AssertNotCount.vi" Type="VI" URL="../AssertNotCount.vi"/>
 	<Item Name="AssertNotEquals.vim" Type="VI" URL="../AssertNotEquals.vim"/>
