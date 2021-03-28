@@ -61,7 +61,6 @@
 		</Item>
 		<Item Name="Common" Type="Folder">
 			<Item Name="GetOwningLibrary.vi" Type="VI" URL="../GetOwningLibrary.vi"/>
-			<Item Name="MonitorActiveProject.vi" Type="VI" URL="../MonitorActiveProject.vi"/>
 		</Item>
 		<Item Name="UnitTestFrameworkToolkit.lvlib" Type="Library" URL="../UnitTestFrameworkToolkit/UnitTestFrameworkToolkit.lvlib"/>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>

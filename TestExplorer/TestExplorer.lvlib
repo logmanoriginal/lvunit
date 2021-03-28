@@ -9,6 +9,7 @@
 		<Item Name="GetDeferDrawingDuringTest.vi" Type="VI" URL="../GetDeferDrawingDuringTest.vi"/>
 		<Item Name="GetProjectLibrarySuffix.vi" Type="VI" URL="../GetProjectLibrarySuffix.vi"/>
 		<Item Name="GetTestSuites.vi" Type="VI" URL="../GetTestSuites.vi"/>
+		<Item Name="MonitorActiveProject.vi" Type="VI" URL="../MonitorActiveProject.vi"/>
 		<Item Name="SetResultTreeIcons.vi" Type="VI" URL="../SetResultTreeIcons.vi"/>
 		<Item Name="TestBuilderFactory.vi" Type="VI" URL="../TestBuilderFactory.vi"/>
 	</Item>
