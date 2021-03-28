@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2021-02-26 20:34:59" Creator="Pascal Neuperger" Comments="" ID="59f0951c77769f798023ceaabfcccfc8">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2021-02-26 23:01:18" Creator="Pascal Neuperger" Comments="" ID="8427fe924b11e8fb9087522c2899f9b0">
   <Library_General_Settings>
     <Package_File_Name>LVUnit_lib_LVUnit</Package_File_Name>
-    <Library_Version>0.2.0.3</Library_Version>
+    <Library_Version>0.2.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -173,11 +173,8 @@
       <Exclusions>
         <Path>LVUnit.lvproj</Path>
       </Exclusions>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
     </Source_Files>
-    <License_Agreement_Filepath>..\..\..\Code\logmanoriginal\lvunit\LICENSE</License_Agreement_Filepath>
+    <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -276,7 +273,7 @@
         <Path>Assertion</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B1AEF4BF2E7E839A26A468BA9EE8043</GUID>
+      <GUID>E6174EF82C30E6BA45A373AF0F4FFBBD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -535,7 +532,7 @@
         <Path>Assertion\AssertTrue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>072A17085496B1A02E4D58414DE20DF5</GUID>
+      <GUID>DA40EE6AD399BA15612878EB08244B5E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
