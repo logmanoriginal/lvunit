@@ -17,6 +17,7 @@
 			<Item Name="TestBuilder.lvclass" Type="LVClass" URL="../TestBuilder/TestBuilder.lvclass"/>
 			<Item Name="CodeCoverage.lvclass" Type="LVClass" URL="../CodeCoverage/CodeCoverage.lvclass"/>
 			<Item Name="Assertion.lvlib" Type="Library" URL="../Assertion/Assertion.lvlib"/>
+			<Item Name="Configuration.lvlib" Type="Library" URL="../Configuration/Configuration.lvlib"/>
 			<Item Name="Constraint.lvlib" Type="Library" URL="../Constraint/Constraint.lvlib"/>
 			<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
 			<Item Name="TestListener.lvclass" Type="LVClass" URL="../TestListener/TestListener.lvclass"/>
@@ -33,6 +34,7 @@
 			<Item Name="CodeCoverageTest.lvlib" Type="Library" URL="../CodeCoverageTest/CodeCoverageTest.lvlib"/>
 			<Item Name="AssertionTest.lvlib" Type="Library" URL="../AssertionTest/AssertionTest.lvlib"/>
 			<Item Name="ConstraintTest.lvlib" Type="Library" URL="../ConstraintTest/ConstraintTest.lvlib"/>
+			<Item Name="ConfigurationTest.lvlib" Type="Library" URL="../ConfigurationTest/ConfigurationTest.lvlib"/>
 			<Item Name="ErrorTest.lvlib" Type="Library" URL="../ErrorTest/ErrorTest.lvlib"/>
 			<Item Name="WhitelistTest.lvlib" Type="Library" URL="../WhitelistTest/WhitelistTest.lvlib"/>
 			<Item Name="TestFailureTest.lvlib" Type="Library" URL="../TestFailureTest/TestFailureTest.lvlib"/>
@@ -119,6 +121,13 @@
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
