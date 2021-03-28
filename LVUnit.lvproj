@@ -31,23 +31,23 @@
 			<Item Name="Theory.lvclass" Type="LVClass" URL="../Theory/Theory.lvclass"/>
 		</Item>
 		<Item Name="Core.Tests" Type="Folder">
-			<Item Name="CodeCoverageTest.lvlib" Type="Library" URL="../CodeCoverageTest/CodeCoverageTest.lvlib"/>
-			<Item Name="AssertionTest.lvlib" Type="Library" URL="../AssertionTest/AssertionTest.lvlib"/>
-			<Item Name="ConstraintTest.lvlib" Type="Library" URL="../ConstraintTest/ConstraintTest.lvlib"/>
-			<Item Name="ConfigurationTest.lvlib" Type="Library" URL="../ConfigurationTest/ConfigurationTest.lvlib"/>
-			<Item Name="ErrorTest.lvlib" Type="Library" URL="../ErrorTest/ErrorTest.lvlib"/>
-			<Item Name="WhitelistTest.lvlib" Type="Library" URL="../WhitelistTest/WhitelistTest.lvlib"/>
-			<Item Name="TestFailureTest.lvlib" Type="Library" URL="../TestFailureTest/TestFailureTest.lvlib"/>
-			<Item Name="TestResultTest.lvlib" Type="Library" URL="../TestResultTest/TestResultTest.lvlib"/>
-			<Item Name="TestSuiteTest.lvlib" Type="Library" URL="../TestSuiteTest/TestSuiteTest.lvlib"/>
-			<Item Name="TheoryTest.lvlib" Type="Library" URL="../TheoryTest/TheoryTest.lvlib"/>
-			<Item Name="FactTest.lvlib" Type="Library" URL="../FactTest/FactTest.lvlib"/>
+			<Item Name="CodeCoverage.Tests.lvlib" Type="Library" URL="../CodeCoverage.Tests/CodeCoverage.Tests.lvlib"/>
+			<Item Name="Assertion.Tests.lvlib" Type="Library" URL="../Assertion.Tests/Assertion.Tests.lvlib"/>
+			<Item Name="Constraint.Tests.lvlib" Type="Library" URL="../Constraint.Tests/Constraint.Tests.lvlib"/>
+			<Item Name="Configuration.Tests.lvlib" Type="Library" URL="../Configuration.Tests/Configuration.Tests.lvlib"/>
+			<Item Name="Error.Tests.lvlib" Type="Library" URL="../Error.Tests/Error.Tests.lvlib"/>
+			<Item Name="Whitelist.Tests.lvlib" Type="Library" URL="../Whitelist.Tests/Whitelist.Tests.lvlib"/>
+			<Item Name="TestFailure.Tests.lvlib" Type="Library" URL="../TestFailure.Tests/TestFailure.Tests.lvlib"/>
+			<Item Name="TestResult.Tests.lvlib" Type="Library" URL="../TestResult.Tests/TestResult.Tests.lvlib"/>
+			<Item Name="TestSuite.Tests.lvlib" Type="Library" URL="../TestSuite.Tests/TestSuite.Tests.lvlib"/>
+			<Item Name="Theory.Tests.lvlib" Type="Library" URL="../Theory.Tests/Theory.Tests.lvlib"/>
+			<Item Name="Fact.Tests.lvlib" Type="Library" URL="../Fact.Tests/Fact.Tests.lvlib"/>
 		</Item>
 		<Item Name="LVUnit" Type="Folder">
 			<Item Name="LVUnitTestBuilder.lvclass" Type="LVClass" URL="../LVUnitTestBuilder/LVUnitTestBuilder.lvclass"/>
 		</Item>
 		<Item Name="LVUnit.Tests" Type="Folder">
-			<Item Name="LVUnitTestBuilderTest.lvlib" Type="Library" URL="../LVUnitTestBuilderTest/LVUnitTestBuilderTest.lvlib"/>
+			<Item Name="LVUnitTestBuilder.Tests.lvlib" Type="Library" URL="../LVUnitTestBuilder.Tests/LVUnitTestBuilder.Tests.lvlib"/>
 		</Item>
 		<Item Name="UX" Type="Folder">
 			<Item Name="ResultTree.lvclass" Type="LVClass" URL="../ResultTree/ResultTree.lvclass"/>
@@ -55,8 +55,8 @@
 			<Item Name="TestExplorer.lvlib" Type="Library" URL="../TestExplorer/TestExplorer.lvlib"/>
 		</Item>
 		<Item Name="UX.Tests" Type="Folder">
-			<Item Name="ResultTreeTest.lvlib" Type="Library" URL="../ResultTreeTest/ResultTreeTest.lvlib"/>
-			<Item Name="ResultTreeListenerTest.lvlib" Type="Library" URL="../ResultTreeListenerTest/ResultTreeListenerTest.lvlib"/>
+			<Item Name="ResultTree.Tests.lvlib" Type="Library" URL="../ResultTree.Tests/ResultTree.Tests.lvlib"/>
+			<Item Name="ResultTreeListener.Tests.lvlib" Type="Library" URL="../ResultTreeListener.Tests/ResultTreeListener.Tests.lvlib"/>
 		</Item>
 		<Item Name="Unit Test Framework" Type="Folder">
 			<Item Name="IsUnitTestFrameworkInstalled.vi" Type="VI" URL="../IsUnitTestFrameworkInstalled.vi"/>

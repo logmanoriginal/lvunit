@@ -32,7 +32,7 @@ LVUnit supports custom settings that are stored in the Default Data Directory: `
 ```ini
 [LVUnit]
 # Specifies the suffix to use when locating unit test libraries
-ProjectLibrarySuffix = "Test.lvlib"
+ProjectLibrarySuffix = ".Tests.lvlib"
 # Specifies whether drawing is disabled during test execution.
 # Disabling this feature will slow down test execution by a factor of 5-10!
 DeferDrawingDuringTest = True
@@ -52,7 +52,7 @@ DeferDrawingDuringTest = True
 ![image](https://user-images.githubusercontent.com/5776685/109355811-15b0fe00-7880-11eb-9c14-e5e1623e6e59.png)
 
 ### Additional Notes
-* Test Explorer only executes VIs inside libraries that end on "Test.lvlib"
+* Test Explorer only executes VIs inside libraries that end on ".Tests.lvlib"
 * Nested libraries appear as subtrees in Test Explorer
 * Items in private scope are ignored by Test Explorer
 * Errors returned by the code under test take precedence over errors from assertion functions
