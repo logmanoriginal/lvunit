@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2021-02-26 23:01:18" Creator="Pascal Neuperger" Comments="" ID="8427fe924b11e8fb9087522c2899f9b0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2021-02-27 16:22:25" Creator="Pascal Neuperger" Comments="" ID="1aeb519b165e9dab9b1b2716cd526c72">
   <Library_General_Settings>
     <Package_File_Name>LVUnit_lib_LVUnit</Package_File_Name>
-    <Library_Version>0.2.0.4</Library_Version>
+    <Library_Version>0.2.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -123,45 +123,6 @@
         <Namespace/>
       </Namespace_Overrides>
       <Exclusions>
-        <Path>AssertionTest</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>CodeCoverageTest</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>ConstraintTest</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>ErrorTest</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>FactTest</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>LVUnitTestBuilderTest</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>ResultTreeListenerTest</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>ResultTreeTest</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>TestFailureTest</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>TestResultTest</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>TestSuiteTest</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>TheoryTest</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>WhitelistTest</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>.gitignore</Path>
       </Exclusions>
       <Exclusions>
@@ -172,6 +133,48 @@
       </Exclusions>
       <Exclusions>
         <Path>LVUnit.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Assertion.Tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>CodeCoverage.Tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Configuration.Tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Constraint.Tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Error.Tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Fact.Tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>LVUnitTestBuilder.Tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>ResultTree.Tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>ResultTreeListener.Tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>TestFailure.Tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>TestResult.Tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>TestSuite.Tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Theory.Tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Whitelist.Tests</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
@@ -233,6 +236,7 @@
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>
       <Text_to_Add>
+
 {product_name} {version_number}
 {author_name} - {company_name}
 {copyright}</Text_to_Add>
@@ -273,7 +277,7 @@
         <Path>Assertion</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E6174EF82C30E6BA45A373AF0F4FFBBD</GUID>
+      <GUID>53F78116E0B1078ECDFD7EA72A7112E4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -532,7 +536,7 @@
         <Path>Assertion\AssertTrue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DA40EE6AD399BA15612878EB08244B5E</GUID>
+      <GUID>331B35B469CA0268066ACD81F33313D5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
