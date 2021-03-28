@@ -69,6 +69,8 @@
 		<Item Name="TestBuilderFactory.vi" Type="VI" URL="../TestBuilderFactory.vi"/>
 		<Item Name="ControlData.ctl" Type="VI" URL="../ControlData.ctl"/>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
+		<Item Name="LICENSE" Type="Document" URL="../LICENSE"/>
+		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
