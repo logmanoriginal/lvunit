@@ -29,6 +29,7 @@
 			<Item Name="Test.lvclass" Type="LVClass" URL="../Test/Test.lvclass"/>
 			<Item Name="Fact.lvclass" Type="LVClass" URL="../Fact/Fact.lvclass"/>
 			<Item Name="Theory.lvclass" Type="LVClass" URL="../Theory/Theory.lvclass"/>
+			<Item Name="ControlData.ctl" Type="VI" URL="../ControlData.ctl"/>
 		</Item>
 		<Item Name="Core.Tests" Type="Folder">
 			<Item Name="CodeCoverage.Tests.lvlib" Type="Library" URL="../CodeCoverage.Tests/CodeCoverage.Tests.lvlib"/>
@@ -58,16 +59,11 @@
 			<Item Name="ResultTree.Tests.lvlib" Type="Library" URL="../ResultTree.Tests/ResultTree.Tests.lvlib"/>
 			<Item Name="ResultTreeListener.Tests.lvlib" Type="Library" URL="../ResultTreeListener.Tests/ResultTreeListener.Tests.lvlib"/>
 		</Item>
-		<Item Name="Unit Test Framework" Type="Folder">
-			<Item Name="IsUnitTestFrameworkInstalled.vi" Type="VI" URL="../IsUnitTestFrameworkInstalled.vi"/>
-			<Item Name="IsUserDefinedTestVI.vi" Type="VI" URL="../IsUserDefinedTestVI.vi"/>
-		</Item>
 		<Item Name="Common" Type="Folder">
 			<Item Name="GetOwningLibrary.vi" Type="VI" URL="../GetOwningLibrary.vi"/>
 			<Item Name="MonitorActiveProject.vi" Type="VI" URL="../MonitorActiveProject.vi"/>
 		</Item>
-		<Item Name="TestBuilderFactory.vi" Type="VI" URL="../TestBuilderFactory.vi"/>
-		<Item Name="ControlData.ctl" Type="VI" URL="../ControlData.ctl"/>
+		<Item Name="UnitTestFrameworkToolkit.lvlib" Type="Library" URL="../UnitTestFrameworkToolkit/UnitTestFrameworkToolkit.lvlib"/>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
 		<Item Name="LICENSE" Type="Document" URL="../LICENSE"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>

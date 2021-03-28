@@ -10,6 +10,7 @@
 		<Item Name="GetProjectLibrarySuffix.vi" Type="VI" URL="../GetProjectLibrarySuffix.vi"/>
 		<Item Name="GetTestSuites.vi" Type="VI" URL="../GetTestSuites.vi"/>
 		<Item Name="SetResultTreeIcons.vi" Type="VI" URL="../SetResultTreeIcons.vi"/>
+		<Item Name="TestBuilderFactory.vi" Type="VI" URL="../TestBuilderFactory.vi"/>
 	</Item>
 	<Item Name="TestExplorer.vi" Type="VI" URL="../TestExplorer.vi"/>
 </Library>
