@@ -1,4 +1,3 @@
-# LVUnit
 ## About The Project
 There are a few great unit test frameworks for LabVIEW available on the internet, however, I didn't find one that really suited my needs so I decided to write my own. I want to create a unit test framework that is easy to use, fast, extensible, and open source.
 
@@ -32,8 +31,31 @@ To get a local copy follow the instructions below or install the package file fr
 * Add a VI for your test case
 * Use one of the assertion functions
 * Connect the error out terminal
-* Run the VI manually
-* Use the Test Explorer to run all unit tests in your project
+* Run the VI manually or use the Test Explorer to run all unit tests in your project
+
+![image](https://user-images.githubusercontent.com/5776685/109356060-7a6c5880-7880-11eb-940a-4e55d09e358c.png)
+
+![image](https://user-images.githubusercontent.com/5776685/109356099-88ba7480-7880-11eb-9339-bce141c92b5b.png)
+
+![image](https://user-images.githubusercontent.com/5776685/109355811-15b0fe00-7880-11eb-9c14-e5e1623e6e59.png)
+
+### Additional Notes
+* Test Explorer only executes VIs inside libraries that end on "Test.lvlib"
+* Nested libraries appear as subtrees in Test Explorer
+* Items in private scope are ignored by Test Explorer
+* Errors returned by the code under test take precedence over errors from assertion functions
+* VIs with input terminals are handled as "Theory", passing multiple sets of data from a JSON-formatted file to test different scenarios. JSON syntax:
+  ```JSON
+  [
+    {
+        "name": "Name of the test as it appears in Test Explorer",
+        "data": {
+            "Name of input terminal 1": "Input terminal data (string example)",
+            "Name of input terminal 2": 99
+        }
+    }
+  ]
+  ```
 
 ## Roadmap
 See [open issues](https://github.com/logmanoriginal/lvunit/issues) for a list of proposed features (and known issues).
