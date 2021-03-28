@@ -26,6 +26,18 @@ To get a local copy follow the instructions below or install the package file fr
     git clone https://github.com/logmanoriginal/lvunit.git
     ```
 
+### Settings
+LVUnit supports custom settings that are stored in the Default Data Directory: `<LabVIEW Data>\LVUnit\Settings.ini`
+
+```ini
+[LVUnit]
+# Specifies the suffix to use when locating unit test libraries
+ProjectLibrarySuffix = "Test.lvlib"
+# Specifies whether drawing is disabled during test execution.
+# Disabling this feature will slow down test execution by a factor of 5-10!
+DeferDrawingDuringTest = True
+```
+
 ## Usage
 * Create a library for your unit tests
 * Add a VI for your test case
