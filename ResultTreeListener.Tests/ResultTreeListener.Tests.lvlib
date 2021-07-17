@@ -30,4 +30,5 @@
 	<Item Name="EndTestSuite_WithFailureAtDifferentSubtree_FailedIconSet.vi" Type="VI" URL="../EndTestSuite_WithFailureAtDifferentSubtree_FailedIconSet.vi"/>
 	<Item Name="EndTestSuite_WithFailureAtSiblingSubtree_PassedIconSet.vi" Type="VI" URL="../EndTestSuite_WithFailureAtSiblingSubtree_PassedIconSet.vi"/>
 	<Item Name="EndTestSuite_WithFailureAtSiblingSubtree_ParentFailedIconSet.vi" Type="VI" URL="../EndTestSuite_WithFailureAtSiblingSubtree_ParentFailedIconSet.vi"/>
+	<Item Name="GetTestMap_AfterStartTest_ContainsOneElement.vi" Type="VI" URL="../GetTestMap_AfterStartTest_ContainsOneElement.vi"/>
 </Library>
