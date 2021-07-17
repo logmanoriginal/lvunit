@@ -1,30 +1,29 @@
+<!-- ABOUT THE PROJECT -->
 ## About The Project
-There are a few great unit test frameworks for LabVIEW available on the internet, however, I didn't find one that really suited my needs so I decided to write my own. I want to create a unit test framework that is easy to use, fast, extensible, and open source.
-
-Here is why:
-* You should spend most of your time adding value to your product - writing unit tests should be as fast as writing throwaway code.
-* You should feel comfortable writing unit tests as part of your daily routine.
-* You shouldn't have to wait minutes for unit tests to complete.
-* You shouldn't have to convince your manager to spend money for something that "doesn't add value to your product" :smile:
-
-Of course, no one unit test framework will be a perfect for all projects since your needs might be different. This is why LVUnit is designed with interoperability in mind, so you can adapt it to your needs.
+**LVUnit** is a unit testing framework for LabVIEW&trade;.
 
 ## Built With
-* [LabVIEW](https://ni.com/labview)
+* [LabVIEW&trade;](https://ni.com/labview)
 
+<!-- GETTING STARTED -->
 ## Getting Started
-To get a local copy follow the instructions below or install the package file from the latest [release](https://github.com/logmanoriginal/lvunit/releases).
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
-* [LabVIEW 2017](https://www.ni.com/download/labview)
-* (optional) [LabVIEW Unit Test Framework Toolkit 2017](https://www.ni.com/download/labview-unit-test-framework-toolkit) -- some features are not available when missing.
-* [Git](https://git-scm.com/)
+* LabVIEW&trade; 2017 or later
+* VI Package Manager
+* (optional) LabVIEW&trade; Unit Test Framework Toolkit 2017 or later -- some features are not available when this toolkit is missing.
 
 ### Installation
 1. Clone the repo
     ```sh
     git clone https://github.com/logmanoriginal/lvunit.git
     ```
+2. Install packages
+    ```sh
+    start .vipc
+    ```
+    Or apply `.vipc` manually.
 
 ### Settings
 LVUnit supports custom settings that are stored in the Default Data Directory: `<LabVIEW Data>\LVUnit\Settings.ini`
@@ -34,44 +33,66 @@ LVUnit supports custom settings that are stored in the Default Data Directory: `
 # Specifies the suffix to use when locating unit test libraries
 ProjectLibrarySuffix = ".Tests.lvlib"
 # Specifies whether drawing is disabled during test execution.
-# Disabling this feature will slow down test execution by a factor of 5-10!
+# Disabling this feature will slow down test execution by a factor of 5 to 10!
 DeferDrawingDuringTest = True
 ```
 
+<!-- USAGE EXAMPLES -->
 ## Usage
-* Create a library for your unit tests
-* Add a VI for your test case
-* Use one of the assertion functions
-* Connect the error out terminal
-* Run the VI manually or use the Test Explorer to run all unit tests in your project
+Test suites are defined by project libraries with suffix ".Tests.lvlib" (can be changed).
 
-![image](https://user-images.githubusercontent.com/5776685/109356060-7a6c5880-7880-11eb-940a-4e55d09e358c.png)
+![Test Suite](.github/images/example1-project.png)
 
-![image](https://user-images.githubusercontent.com/5776685/109356099-88ba7480-7880-11eb-9339-bce141c92b5b.png)
+Every public VI inside such a project library is considered a test case. Test cases must have an error output terminal and should use assertion functions.
 
-![image](https://user-images.githubusercontent.com/5776685/109355811-15b0fe00-7880-11eb-9c14-e5e1623e6e59.png)
+![Test Case](.github/images/example1-testcase.png)
 
-### Additional Notes
-* Test Explorer only executes VIs inside libraries that end on ".Tests.lvlib"
-* Nested libraries appear as subtrees in Test Explorer
-* Items in private scope are ignored by Test Explorer
-* Errors returned by the code under test take precedence over errors from assertion functions
-* VIs with input terminals are handled as "Theory", passing multiple sets of data from a JSON-formatted file to test different scenarios. JSON syntax:
-  ```JSON
-  [
-    {
-        "name": "Name of the test as it appears in Test Explorer",
-        "data": {
-            "Name of input terminal 1": "Input terminal data (string example)",
-            "Name of input terminal 2": 99
-        }
+Any error returned by a test case is considered a test failure, even if the error does not originate from an assertion function. Run the VI to get the result on the error output control.
+
+![Error Report](.github/images/example1-error.png)
+
+Use **Tools** > **Test Explorer** to run all tests in a project.
+
+![Test Explorer](.github/images/example1-testexplorer.png)
+
+Double-click a test case to open the VI.
+
+### Theories
+Theories are test cases with input terminals.
+
+![Theory](.github/images/example2-theory.png)
+
+Place a JSON file next to the VI with the same file name:
+```JSON
+[
+  {
+    "name": "String with whitespace",
+    "data": {
+      "input": "Hello World!",
+      "expected": "HelloWorld!"
     }
-  ]
-  ```
+  },
+  {
+    "name": "String without whitespace",
+    "data": {
+      "input": "HelloWorld!",
+      "expected": "HelloWorld!"
+    }
+  }
+]
+```
 
+Use **Tools** > **Test Explorer** to run all tests in a project. Notice that each configuration appears separately in the list.
+
+![Test Explorer](.github/images/example2-testexplorer.png)
+
+Double-click a test case to open the VI with that configuration.
+
+<!-- ROADMAP -->
 ## Roadmap
 See [open issues](https://github.com/logmanoriginal/lvunit/issues) for a list of proposed features (and known issues).
 
+<!-- CONTRIBUTING -->
 ## Contributing
 Contributions are what make the open source community such an amazing place. Any contributions you make are greatly appreciated :sparkling_heart:
 
@@ -81,10 +102,20 @@ Contributions are what make the open source community such an amazing place. Any
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-Note: LabVIEW VIs are binary files, which makes it difficult to merge. Please only change one software module at a time to reduce conflicts.
+Keep in mind that LabVIEW&trade; VIs are binary files, which are difficult to merge.
+- Only change a single VI or library.
+- Avoid conflicts with other pull requests (don't work on the same libraries or VIs).
+- Send VI Snippets (via issues) instead of pull requests when possible.
 
+<!-- LICENSE -->
 ## License
 Distributed under the BSD-3-Clause license. See [LICENSE](LICENSE) for more information.
 
+<!-- CONTACT -->
+## Contact
+
+Project Link: [https://github.com/logmanoriginal/lvunit](https://github.com/logmanoriginal/lvunit)
+
+<!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [JSONtext](https://bitbucket.org/drjdpowell/jsontext)
