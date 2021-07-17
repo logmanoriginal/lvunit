@@ -1,11 +1,11 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2021-02-27 17:20:49" Creator="Pascal Neuperger" Comments="" ID="379b105a30e9d2e38165364b7b584389">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2021-07-17 19:05:06" Creator="Pascal Neuperger" Comments="" ID="63e718906a312d830890f6f369998afe">
   <Library_General_Settings>
     <Package_File_Name>LVUnit_lib_LVUnit</Package_File_Name>
-    <Library_Version>0.2.0.6</Library_Version>
+    <Library_Version>0.1.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
-    <Company_Name>LVUnit</Company_Name>
+    <Company_Name>PNR</Company_Name>
     <Library_Summary/>
     <Library_License>BSD-3-Clause</Library_License>
     <Package_LabVIEW_Version>17.0</Package_LabVIEW_Version>
@@ -32,10 +32,16 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary>A unit test framework for LabVIEW</One_Line_Description_Summary>
-      <Description/>
-      <Copyright>Copyright © 2021, logmanoriginal</Copyright>
-      <Packager>logmanoriginal</Packager>
+      <One_Line_Description_Summary>A unit testing framework for LabVIEW</One_Line_Description_Summary>
+      <Description>LVUnit is a unit testing framework for LabVIEW.
+
+&lt;b&gt;Features&lt;/b&gt;
+- Lightweight assertion library
+- Human-readable failure reports.
+- Easy to use test explorer.
+- Static and parameterized tests (facts and theories).</Description>
+      <Copyright>Copyright © 2021, Pascal Neuperger</Copyright>
+      <Packager/>
       <URL>https://github.com/logmanoriginal/lvunit</URL>
       <Release_Notes>First release.</Release_Notes>
     </Description>
@@ -176,6 +182,9 @@
       <Exclusions>
         <Path>Whitelist.Tests</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>.github</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -197,7 +206,7 @@
     <Palette_Sets>
       <Palette_Set_Name>Default</Palette_Set_Name>
       <Use_Custom_Category>false</Use_Custom_Category>
-      <Custom_Category_Name/>
+      <Custom_Category_Name>LVUnit</Custom_Category_Name>
       <Custom_Category_Icon>00000408002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000001D8000001A4000000060007001A00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFF000000000000000000000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFF95597FFF95552FFF95552FFF9D552FFFC9D52FFF00000FFF002900000012000000020000000D00CCCCFF000100000000000A0000000800190000002000200028000001D8000001A4001900060020001A00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFF6C00006C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFF95597FFF95552FFF95552FFF9D552FFFC9D52FFF00000FFF</Custom_Category_Icon>
       <Controls_Palette_Information>
         <Virtual_Palette_Base_Path>Controls</Virtual_Palette_Base_Path>
@@ -237,6 +246,7 @@
       <Edit_VI_Description>true</Edit_VI_Description>
       <Text_to_Add>
 
+SPDX-License-Identifier: BSD-3-Clause
 {product_name} {version_number}
 {author_name} - {company_name}
 {copyright}</Text_to_Add>
@@ -277,7 +287,7 @@
         <Path>Assertion</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C3CF20A1D304EFE494E15E7482BAFF76</GUID>
+      <GUID>487AA5741545B7C02D997AEA66042156</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -536,7 +546,7 @@
         <Path>Assertion\AssertTrue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>090FCFBB93CEAF12BDD2DC0EBE2AFE67</GUID>
+      <GUID>D6B1EFCAEA975167096BF4A01C0CDF97</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
