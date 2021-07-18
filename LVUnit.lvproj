@@ -62,6 +62,9 @@
 		<Item Name="Common" Type="Folder">
 			<Item Name="GetOwningLibrary.vi" Type="VI" URL="../GetOwningLibrary.vi"/>
 		</Item>
+		<Item Name="Quick Drop" Type="Folder">
+			<Item Name="Start Test Explorer.vi" Type="VI" URL="../Quick Drop/Start Test Explorer.vi"/>
+		</Item>
 		<Item Name="UnitTestFrameworkToolkit.lvlib" Type="Library" URL="../UnitTestFrameworkToolkit/UnitTestFrameworkToolkit.lvlib"/>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
 		<Item Name="LICENSE" Type="Document" URL="../LICENSE"/>

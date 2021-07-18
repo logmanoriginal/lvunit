@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2021-07-18 08:38:47" Creator="Pascal Neuperger" Comments="" ID="b9e8fdcc241ac619e634aadc29ec7141">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2021-07-18 09:39:42" Creator="Pascal Neuperger" Comments="" ID="fb8fffbd1ae9ebafb4ec9fc251edce58">
   <Library_General_Settings>
     <Package_File_Name>PNR_lib_LVUnit</Package_File_Name>
-    <Library_Version>0.1.0.10</Library_Version>
+    <Library_Version>0.1.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -115,6 +115,12 @@
       <Destination_Overrides>
         <Path>Test Explorer/Test Explorer.vi</Path>
         <Destination>7</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Quick Drop/Start Test Explorer.vi</Path>
+        <Destination>11</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -511,7 +517,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <Path>Assertion\Assert True.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7D630529511E8750F02250BC5EC6F425</GUID>
+      <GUID>B239EB3FBA17617CB99A589B7C2FBFE7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
