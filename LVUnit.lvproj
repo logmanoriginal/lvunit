@@ -62,9 +62,6 @@
 		<Item Name="Common" Type="Folder">
 			<Item Name="GetOwningLibrary.vi" Type="VI" URL="../GetOwningLibrary.vi"/>
 		</Item>
-		<Item Name="Quick Drop" Type="Folder">
-			<Item Name="Start Test Explorer.vi" Type="VI" URL="../Quick Drop/Start Test Explorer.vi"/>
-		</Item>
 		<Item Name="UnitTestFrameworkToolkit.lvlib" Type="Library" URL="../UnitTestFrameworkToolkit/UnitTestFrameworkToolkit.lvlib"/>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
 		<Item Name="LICENSE" Type="Document" URL="../LICENSE"/>
@@ -130,19 +127,6 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="JSONtext LVClass Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JDP Science/JSONtext/LVClass Serializer/JSONtext LVClass Serializer.lvclass"/>
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/Base64/Base64 Support.lvlib"/>
-				<Item Name="Configuration.lvlib" Type="Library" URL="/&lt;vilib&gt;/PNR/LVUnit/Configuration/Configuration.lvlib"/>
-				<Item Name="Test Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/PNR/LVUnit/Test Explorer/Test Explorer.lvlib"/>
-				<Item Name="Test.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/LVUnit/Test/Test.lvclass"/>
-				<Item Name="TestResult.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/LVUnit/TestResult/TestResult.lvclass"/>
-				<Item Name="TestSuite.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/LVUnit/TestSuite/TestSuite.lvclass"/>
-				<Item Name="TestBuilder.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/LVUnit/TestBuilder/TestBuilder.lvclass"/>
-				<Item Name="LVUnitTestBuilder.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/LVUnit/LVUnitTestBuilder/LVUnitTestBuilder.lvclass"/>
-				<Item Name="GetOwningLibrary.vi" Type="VI" URL="/&lt;vilib&gt;/PNR/LVUnit/GetOwningLibrary.vi"/>
-				<Item Name="ControlData.ctl" Type="VI" URL="/&lt;vilib&gt;/PNR/LVUnit/ControlData.ctl"/>
-				<Item Name="Fact.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/LVUnit/Fact/Fact.lvclass"/>
-				<Item Name="Theory.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/LVUnit/Theory/Theory.lvclass"/>
-				<Item Name="TestRunner.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/LVUnit/TestRunner/TestRunner.lvclass"/>
-				<Item Name="ResultTreeListener.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/LVUnit/ResultTreeListener/ResultTreeListener.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
