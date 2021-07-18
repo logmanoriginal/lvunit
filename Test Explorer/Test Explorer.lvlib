@@ -6,12 +6,12 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Internal VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="GetDeferDrawingDuringTest.vi" Type="VI" URL="../GetDeferDrawingDuringTest.vi"/>
-		<Item Name="GetProjectLibrarySuffix.vi" Type="VI" URL="../GetProjectLibrarySuffix.vi"/>
-		<Item Name="GetTestSuites.vi" Type="VI" URL="../GetTestSuites.vi"/>
-		<Item Name="MonitorActiveProject.vi" Type="VI" URL="../MonitorActiveProject.vi"/>
-		<Item Name="SetResultTreeIcons.vi" Type="VI" URL="../SetResultTreeIcons.vi"/>
-		<Item Name="TestBuilderFactory.vi" Type="VI" URL="../TestBuilderFactory.vi"/>
+		<Item Name="Get Defer Drawing During Test.vi" Type="VI" URL="../Get Defer Drawing During Test.vi"/>
+		<Item Name="Get Project Library Suffix.vi" Type="VI" URL="../Get Project Library Suffix.vi"/>
+		<Item Name="Get Test Suites.vi" Type="VI" URL="../Get Test Suites.vi"/>
+		<Item Name="Monitor Active Project.vi" Type="VI" URL="../Monitor Active Project.vi"/>
+		<Item Name="Set Result Tree Icons.vi" Type="VI" URL="../Set Result Tree Icons.vi"/>
+		<Item Name="Test Builder Factory.vi" Type="VI" URL="../Test Builder Factory.vi"/>
 	</Item>
-	<Item Name="TestExplorer.vi" Type="VI" URL="../TestExplorer.vi"/>
+	<Item Name="Test Explorer.vi" Type="VI" URL="../Test Explorer.vi"/>
 </Library>

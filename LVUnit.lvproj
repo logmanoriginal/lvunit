@@ -53,7 +53,7 @@
 		<Item Name="UX" Type="Folder">
 			<Item Name="ResultTree.lvclass" Type="LVClass" URL="../ResultTree/ResultTree.lvclass"/>
 			<Item Name="ResultTreeListener.lvclass" Type="LVClass" URL="../ResultTreeListener/ResultTreeListener.lvclass"/>
-			<Item Name="TestExplorer.lvlib" Type="Library" URL="../TestExplorer/TestExplorer.lvlib"/>
+			<Item Name="Test Explorer.lvlib" Type="Library" URL="../Test Explorer/Test Explorer.lvlib"/>
 		</Item>
 		<Item Name="UX.Tests" Type="Folder">
 			<Item Name="ResultTree.Tests.lvlib" Type="Library" URL="../ResultTree.Tests/ResultTree.Tests.lvlib"/>
