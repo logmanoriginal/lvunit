@@ -6,9 +6,21 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Virtual Folder" Type="Folder">
+		<Item Name="Community" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		</Item>
+		<Item Name="Not Specified" Type="Folder"/>
+		<Item Name="Private" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Public" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		</Item>
+	</Item>
 	<Item Name="Document.txt" Type="Document" URL="../Document.txt"/>
 	<Item Name="TestItem.lvtest" Type="TestItem" URL="../TestItem.lvtest">
-		<Property Name="utf.vector.test.bind" Type="Str">0F988F6E-E405-67DF-A2D8-761BAA175684</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">15430B9E-41C8-038D-ED75-9307D11BBEE5</Property>
 	</Item>
 	<Item Name="TestVectorItem.lvvect" Type="TestVectorItem" URL="../TestVectorItem.lvvect"/>
 </Library>

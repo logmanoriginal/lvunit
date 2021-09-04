@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2021-07-18 09:39:42" Creator="Pascal Neuperger" Comments="" ID="fb8fffbd1ae9ebafb4ec9fc251edce58">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2021-09-04 20:34:41" Creator="Pascal Neuperger" Comments="" ID="f9f56e1ac3385596d4bea70cfe4353a3">
   <Library_General_Settings>
     <Package_File_Name>PNR_lib_LVUnit</Package_File_Name>
-    <Library_Version>0.1.0.13</Library_Version>
+    <Library_Version>0.1.0.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -517,7 +517,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <Path>Assertion\Assert True.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B239EB3FBA17617CB99A589B7C2FBFE7</GUID>
+      <GUID>EA468E56DF815113CC40A16FD46BF3CB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
