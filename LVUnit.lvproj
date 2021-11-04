@@ -30,6 +30,9 @@
 			<Item Name="Fact.lvclass" Type="LVClass" URL="../Fact/Fact.lvclass"/>
 			<Item Name="Theory.lvclass" Type="LVClass" URL="../Theory/Theory.lvclass"/>
 			<Item Name="ControlData.ctl" Type="VI" URL="../ControlData.ctl"/>
+			<Item Name="Test Discoverer.lvclass" Type="LVClass" URL="../Test Discoverer/Test Discoverer.lvclass"/>
+			<Item Name="Test Case.lvclass" Type="LVClass" URL="../Test Case/Test Case.lvclass"/>
+			<Item Name="LVUnit Test Discoverer.lvclass" Type="LVClass" URL="../LVUnit Test Discoverer/LVUnit Test Discoverer.lvclass"/>
 		</Item>
 		<Item Name="Core.Tests" Type="Folder">
 			<Item Name="CodeCoverage.Tests.lvlib" Type="Library" URL="../CodeCoverage.Tests/CodeCoverage.Tests.lvlib"/>
@@ -43,6 +46,8 @@
 			<Item Name="TestSuite.Tests.lvlib" Type="Library" URL="../TestSuite.Tests/TestSuite.Tests.lvlib"/>
 			<Item Name="Theory.Tests.lvlib" Type="Library" URL="../Theory.Tests/Theory.Tests.lvlib"/>
 			<Item Name="Fact.Tests.lvlib" Type="Library" URL="../Fact.Tests/Fact.Tests.lvlib"/>
+			<Item Name="LVUnit Test Discoverer.Tests.lvlib" Type="Library" URL="../LVUnit Test Discoverer.Tests/LVUnit Test Discoverer.Tests.lvlib"/>
+			<Item Name="Test Case.Tests.lvlib" Type="Library" URL="../Test Case.Tests/Test Case.Tests.lvlib"/>
 		</Item>
 		<Item Name="LVUnit" Type="Folder">
 			<Item Name="LVUnitTestBuilder.lvclass" Type="LVClass" URL="../LVUnitTestBuilder/LVUnitTestBuilder.lvclass"/>

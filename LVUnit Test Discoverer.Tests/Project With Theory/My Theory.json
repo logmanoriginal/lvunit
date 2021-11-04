@@ -1,0 +1,14 @@
+[
+    {
+        "name": "false",
+        "data": {
+            "condition": false
+        }
+    },
+    {
+        "name": "true",
+        "data": {
+            "condition": true
+        }
+    }
+]
