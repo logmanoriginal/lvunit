@@ -13,4 +13,5 @@
 	<Item Name="AddTestCase.lvlib" Type="Library" URL="../AddTestCase/AddTestCase.lvlib"/>
 	<Item Name="SetIcon.lvlib" Type="Library" URL="../SetIcon/SetIcon.lvlib"/>
 	<Item Name="Clear.lvlib" Type="Library" URL="../Clear/Clear.lvlib"/>
+	<Item Name="Add Tests.lvlib" Type="Library" URL="../Add Tests/Add Tests.lvlib"/>
 </Library>

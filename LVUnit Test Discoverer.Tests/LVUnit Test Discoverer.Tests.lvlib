@@ -21,7 +21,9 @@
 	<Item Name="Find Tests - Error Input - Returns Same Error.vi" Type="VI" URL="../Find Tests - Error Input - Returns Same Error.vi"/>
 	<Item Name="Find Tests - When Project Contains One LVUnit Test - Returns One Test Case.vi" Type="VI" URL="../Find Tests - When Project Contains One LVUnit Test - Returns One Test Case.vi"/>
 	<Item Name="Find Tests - When Project Contains One LVUnit Test - Returns Test Case With Path.vi" Type="VI" URL="../Find Tests - When Project Contains One LVUnit Test - Returns Test Case With Path.vi"/>
+	<Item Name="Find Tests - When Project Contains One LVUnit Test - Returns Test Case With Qualified Name.vi" Type="VI" URL="../Find Tests - When Project Contains One LVUnit Test - Returns Test Case With Qualified Name.vi"/>
 	<Item Name="Find Tests - When Project Contains Theory - Returns One Test Case For Each Theory.vi" Type="VI" URL="../Find Tests - When Project Contains Theory - Returns One Test Case For Each Theory.vi"/>
+	<Item Name="Find Tests - When Project Contains Theory - Returns Test Cases With Qualified Name.vi" Type="VI" URL="../Find Tests - When Project Contains Theory - Returns Test Cases With Qualified Name.vi"/>
 	<Item Name="Find Tests - When Project Contains Two LVUnit Tests - Returns Two Test Cases.vi" Type="VI" URL="../Find Tests - When Project Contains Two LVUnit Tests - Returns Two Test Cases.vi"/>
 	<Item Name="Find Tests - When Project Is Not A Refnum - Returns Error.vi" Type="VI" URL="../Find Tests - When Project Is Not A Refnum - Returns Error.vi"/>
 	<Item Name="Find Tests - When Project Is Valid - Returns No Error.vi" Type="VI" URL="../Find Tests - When Project Is Valid - Returns No Error.vi"/>
