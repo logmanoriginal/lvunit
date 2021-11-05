@@ -9,8 +9,10 @@
 		<Item Name="Empty Project.lvproj" Type="Document" URL="../Empty Project.lvproj"/>
 		<Item Name="Get Empty Project.vi" Type="VI" URL="../Get Empty Project.vi"/>
 		<Item Name="Get Project With One LVUnit Test.vi" Type="VI" URL="../Get Project With One LVUnit Test.vi"/>
+		<Item Name="Get Project With Private Test.vi" Type="VI" URL="../Get Project With Private Test.vi"/>
 		<Item Name="Get Project With Theory.vi" Type="VI" URL="../Get Project With Theory.vi"/>
 		<Item Name="Get Project With Two LVUnit Tests.vi" Type="VI" URL="../Get Project With Two LVUnit Tests.vi"/>
+		<Item Name="Private Test.lvproj" Type="Document" URL="../Private Test/Private Test.lvproj"/>
 		<Item Name="Project With One LVUnit Test.lvproj" Type="Document" URL="../Project With One LVUnit Test/Project With One LVUnit Test.lvproj"/>
 		<Item Name="Project With Theory.lvproj" Type="Document" URL="../Project With Theory/Project With Theory.lvproj"/>
 		<Item Name="Project With Two LVUnit Tests.lvproj" Type="Document" URL="../Project With Two LVUnit Tests/Project With Two LVUnit Tests.lvproj"/>
@@ -23,4 +25,5 @@
 	<Item Name="Find Tests - When Project Contains Two LVUnit Tests - Returns Two Test Cases.vi" Type="VI" URL="../Find Tests - When Project Contains Two LVUnit Tests - Returns Two Test Cases.vi"/>
 	<Item Name="Find Tests - When Project Is Not A Refnum - Returns Error.vi" Type="VI" URL="../Find Tests - When Project Is Not A Refnum - Returns Error.vi"/>
 	<Item Name="Find Tests - When Project Is Valid - Returns No Error.vi" Type="VI" URL="../Find Tests - When Project Is Valid - Returns No Error.vi"/>
+	<Item Name="Find Tests - When Test Is Private - Does Not Return Test.vi" Type="VI" URL="../Find Tests - When Test Is Private - Does Not Return Test.vi"/>
 </Library>
