@@ -1,13 +1,13 @@
 [
     {
-        "name": "",
+        "name": "Not included 1",
         "data": {
             "haystack": "Hello World!",
             "needle": "Moon"
         }
     },
     {
-        "name": "",
+        "name": "Not included 2",
         "data": {
             "haystack": "Hello World!",
             "needle": "Test"

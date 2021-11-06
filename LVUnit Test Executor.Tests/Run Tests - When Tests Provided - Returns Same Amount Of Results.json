@@ -1,0 +1,30 @@
+[
+    {
+        "name": "1 Test",
+        "data": {
+            "Test Cases": [
+                {
+                    "Path": "",
+                    "Qualified Name": ""
+                }
+            ],
+            "Expected Amount": 1
+        }
+    },
+    {
+        "name": "2 Tests",
+        "data": {
+            "Test Cases": [
+                {
+                    "Path": "",
+                    "Qualified Name": ""
+                },
+                {
+                    "Path": "",
+                    "Qualified Name": ""
+                }
+            ],
+            "Expected Amount": 2
+        }
+    }
+]

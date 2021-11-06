@@ -25,18 +25,6 @@ To get a local copy up and running follow these simple steps.
     ```
     Or apply `.vipc` manually.
 
-### Settings
-LVUnit supports custom settings that are stored in the Default Data Directory: `<LabVIEW Data>\LVUnit\Settings.ini`
-
-```ini
-[LVUnit]
-# Specifies the suffix to use when locating unit test libraries
-ProjectLibrarySuffix = "Tests.lvlib"
-# Specifies whether drawing is disabled during test execution.
-# Disabling this feature will slow down test execution by a factor of 5 to 10!
-DeferDrawingDuringTest = True
-```
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 Test suites are defined by project libraries with suffix "Tests.lvlib" (can be changed).

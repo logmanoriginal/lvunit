@@ -1,0 +1,22 @@
+[
+    {
+        "name": "1 Test",
+        "data": {
+            "Test Cases": [
+                {
+                    "Path": "Fake Test.vi",
+                    "Qualified Name": "Fake Test.vi"
+                }
+            ],
+            "Test Results": [
+                {
+                    "Test Case": {
+                        "Path": "Fake Test.vi",
+                        "Qualified Name": "Fake Test.vi"
+                    },
+                    "Outcome": "Failed"
+                }
+            ]
+        }
+    }
+]
