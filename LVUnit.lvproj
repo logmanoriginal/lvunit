@@ -19,7 +19,6 @@
 			<Item Name="Configuration.lvlib" Type="Library" URL="../Configuration/Configuration.lvlib"/>
 			<Item Name="Constraint.lvlib" Type="Library" URL="../Constraint/Constraint.lvlib"/>
 			<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
-			<Item Name="Whitelist.lvclass" Type="LVClass" URL="../Whitelist/Whitelist.lvclass"/>
 			<Item Name="ControlData.ctl" Type="VI" URL="../ControlData.ctl"/>
 			<Item Name="Test Discoverer.lvclass" Type="LVClass" URL="../Test Discoverer/Test Discoverer.lvclass"/>
 			<Item Name="Test Case.lvclass" Type="LVClass" URL="../Test Case/Test Case.lvclass"/>
@@ -36,7 +35,6 @@
 			<Item Name="Constraint.Tests.lvlib" Type="Library" URL="../Constraint.Tests/Constraint.Tests.lvlib"/>
 			<Item Name="Configuration.Tests.lvlib" Type="Library" URL="../Configuration.Tests/Configuration.Tests.lvlib"/>
 			<Item Name="Error.Tests.lvlib" Type="Library" URL="../Error.Tests/Error.Tests.lvlib"/>
-			<Item Name="Whitelist.Tests.lvlib" Type="Library" URL="../Whitelist.Tests/Whitelist.Tests.lvlib"/>
 			<Item Name="LVUnit Test Discoverer.Tests.lvlib" Type="Library" URL="../LVUnit Test Discoverer.Tests/LVUnit Test Discoverer.Tests.lvlib"/>
 			<Item Name="Test Case.Tests.lvlib" Type="Library" URL="../Test Case.Tests/Test Case.Tests.lvlib"/>
 			<Item Name="Json Data Reader.Tests.lvlib" Type="Library" URL="../Json Data Reader.Tests/Json Data Reader.Tests.lvlib"/>
