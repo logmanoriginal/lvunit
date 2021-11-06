@@ -7,11 +7,8 @@
 	<Item Name="Internal VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Get Defer Drawing During Test.vi" Type="VI" URL="../Get Defer Drawing During Test.vi"/>
-		<Item Name="Get Project Library Suffix.vi" Type="VI" URL="../Get Project Library Suffix.vi"/>
-		<Item Name="Get Test Suites.vi" Type="VI" URL="../Get Test Suites.vi"/>
 		<Item Name="Monitor Active Project.vi" Type="VI" URL="../Monitor Active Project.vi"/>
 		<Item Name="Set Result Tree Icons.vi" Type="VI" URL="../Set Result Tree Icons.vi"/>
-		<Item Name="Test Builder Factory.vi" Type="VI" URL="../Test Builder Factory.vi"/>
 	</Item>
 	<Item Name="Test Explorer.vi" Type="VI" URL="../Test Explorer.vi"/>
 </Library>

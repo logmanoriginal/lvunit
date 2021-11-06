@@ -14,21 +14,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Core" Type="Folder">
-			<Item Name="TestBuilder.lvclass" Type="LVClass" URL="../TestBuilder/TestBuilder.lvclass"/>
 			<Item Name="CodeCoverage.lvclass" Type="LVClass" URL="../CodeCoverage/CodeCoverage.lvclass"/>
 			<Item Name="Assertion.lvlib" Type="Library" URL="../Assertion/Assertion.lvlib"/>
 			<Item Name="Configuration.lvlib" Type="Library" URL="../Configuration/Configuration.lvlib"/>
 			<Item Name="Constraint.lvlib" Type="Library" URL="../Constraint/Constraint.lvlib"/>
 			<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
-			<Item Name="TestListener.lvclass" Type="LVClass" URL="../TestListener/TestListener.lvclass"/>
 			<Item Name="Whitelist.lvclass" Type="LVClass" URL="../Whitelist/Whitelist.lvclass"/>
-			<Item Name="TestFailure.lvclass" Type="LVClass" URL="../TestFailure/TestFailure.lvclass"/>
-			<Item Name="TestResult.lvclass" Type="LVClass" URL="../TestResult/TestResult.lvclass"/>
-			<Item Name="TestRunner.lvclass" Type="LVClass" URL="../TestRunner/TestRunner.lvclass"/>
-			<Item Name="TestSuite.lvclass" Type="LVClass" URL="../TestSuite/TestSuite.lvclass"/>
-			<Item Name="Test.lvclass" Type="LVClass" URL="../Test/Test.lvclass"/>
-			<Item Name="Fact.lvclass" Type="LVClass" URL="../Fact/Fact.lvclass"/>
-			<Item Name="Theory.lvclass" Type="LVClass" URL="../Theory/Theory.lvclass"/>
 			<Item Name="ControlData.ctl" Type="VI" URL="../ControlData.ctl"/>
 			<Item Name="Test Discoverer.lvclass" Type="LVClass" URL="../Test Discoverer/Test Discoverer.lvclass"/>
 			<Item Name="Test Case.lvclass" Type="LVClass" URL="../Test Case/Test Case.lvclass"/>
@@ -46,31 +37,15 @@
 			<Item Name="Configuration.Tests.lvlib" Type="Library" URL="../Configuration.Tests/Configuration.Tests.lvlib"/>
 			<Item Name="Error.Tests.lvlib" Type="Library" URL="../Error.Tests/Error.Tests.lvlib"/>
 			<Item Name="Whitelist.Tests.lvlib" Type="Library" URL="../Whitelist.Tests/Whitelist.Tests.lvlib"/>
-			<Item Name="TestFailure.Tests.lvlib" Type="Library" URL="../TestFailure.Tests/TestFailure.Tests.lvlib"/>
-			<Item Name="TestResult.Tests.lvlib" Type="Library" URL="../TestResult.Tests/TestResult.Tests.lvlib"/>
-			<Item Name="TestSuite.Tests.lvlib" Type="Library" URL="../TestSuite.Tests/TestSuite.Tests.lvlib"/>
-			<Item Name="Theory.Tests.lvlib" Type="Library" URL="../Theory.Tests/Theory.Tests.lvlib"/>
-			<Item Name="Fact.Tests.lvlib" Type="Library" URL="../Fact.Tests/Fact.Tests.lvlib"/>
 			<Item Name="LVUnit Test Discoverer.Tests.lvlib" Type="Library" URL="../LVUnit Test Discoverer.Tests/LVUnit Test Discoverer.Tests.lvlib"/>
 			<Item Name="Test Case.Tests.lvlib" Type="Library" URL="../Test Case.Tests/Test Case.Tests.lvlib"/>
 			<Item Name="Json Data Reader.Tests.lvlib" Type="Library" URL="../Json Data Reader.Tests/Json Data Reader.Tests.lvlib"/>
 			<Item Name="LVUnit Test Executor.Tests.lvlib" Type="Library" URL="../LVUnit Test Executor.Tests/LVUnit Test Executor.Tests.lvlib"/>
 			<Item Name="Test Result.Tests.lvlib" Type="Library" URL="../Test Result.Tests/Test Result.Tests.lvlib"/>
 		</Item>
-		<Item Name="LVUnit" Type="Folder">
-			<Item Name="LVUnitTestBuilder.lvclass" Type="LVClass" URL="../LVUnitTestBuilder/LVUnitTestBuilder.lvclass"/>
-		</Item>
-		<Item Name="LVUnit.Tests" Type="Folder">
-			<Item Name="LVUnitTestBuilder.Tests.lvlib" Type="Library" URL="../LVUnitTestBuilder.Tests/LVUnitTestBuilder.Tests.lvlib"/>
-		</Item>
 		<Item Name="UX" Type="Folder">
 			<Item Name="ResultTree.lvclass" Type="LVClass" URL="../ResultTree/ResultTree.lvclass"/>
-			<Item Name="ResultTreeListener.lvclass" Type="LVClass" URL="../ResultTreeListener/ResultTreeListener.lvclass"/>
 			<Item Name="Test Explorer.lvlib" Type="Library" URL="../Test Explorer/Test Explorer.lvlib"/>
-		</Item>
-		<Item Name="UX.Tests" Type="Folder">
-			<Item Name="ResultTree.Tests.lvlib" Type="Library" URL="../ResultTree.Tests/ResultTree.Tests.lvlib"/>
-			<Item Name="ResultTreeListener.Tests.lvlib" Type="Library" URL="../ResultTreeListener.Tests/ResultTreeListener.Tests.lvlib"/>
 		</Item>
 		<Item Name="Common" Type="Folder">
 			<Item Name="GetOwningLibrary.vi" Type="VI" URL="../GetOwningLibrary.vi"/>
@@ -86,13 +61,11 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
-				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="JDP Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/JDP Utility.lvlib"/>
 				<Item Name="JSONtext.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSONtext.lvlib"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
@@ -145,13 +118,6 @@
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/Base64/Base64 Support.lvlib"/>
 				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
 				<Item Name="Single String To Qualified Name Array.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Single String To Qualified Name Array.vi"/>
-				<Item Name="Serialization Binder.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/JSONtext Object Serialization/Serialization Binder/Serialization Binder.lvclass"/>
-				<Item Name="Generic Object Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/JSONtext Object Serialization/Generic Object Serializer/Generic Object Serializer.lvclass"/>
-				<Item Name="Default Serialization Binder.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/JSONtext Object Serialization/Default Serialization Binder/Default Serialization Binder.lvclass"/>
-				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
-				<Item Name="__JSONtext__Variant to Flattened String (special).vi" Type="VI" URL="/&lt;vilib&gt;/PNR/JSONtext Object Serialization/Vendor/__JSONtext__Variant to Flattened String (special).vi"/>
-				<Item Name="Composition.lvlib" Type="Library" URL="/&lt;vilib&gt;/PNR/LabVIEW Composition/Composition/Composition.lvlib"/>
-				<Item Name="Edit LVLibs.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/EditLVLibs/Edit LVLibs.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
