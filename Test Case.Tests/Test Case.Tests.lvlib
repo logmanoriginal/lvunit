@@ -4,8 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Control Data - When Not Set Explicity - Is Empty.vi" Type="VI" URL="../Control Data - When Not Set Explicity - Is Empty.vi"/>
-	<Item Name="Control Data - When Set Explicity - Returns Configured Value.vi" Type="VI" URL="../Control Data - When Set Explicity - Returns Configured Value.vi"/>
 	<Item Name="Path - When Constructed - Returns Configured Value.vi" Type="VI" URL="../Path - When Constructed - Returns Configured Value.vi"/>
 	<Item Name="Path - When Not Constructed - Is Empty.vi" Type="VI" URL="../Path - When Not Constructed - Is Empty.vi"/>
 	<Item Name="Qualified Name - When Constructed - Returns Configured Value.vi" Type="VI" URL="../Qualified Name - When Constructed - Returns Configured Value.vi"/>
