@@ -13,44 +13,44 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Core" Type="Folder">
+		<Item Name="Code Coverage" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="CodeCoverage.lvclass" Type="LVClass" URL="../CodeCoverage/CodeCoverage.lvclass"/>
-			<Item Name="Assertion.lvlib" Type="Library" URL="../Assertion/Assertion.lvlib"/>
-			<Item Name="Configuration.lvlib" Type="Library" URL="../Configuration/Configuration.lvlib"/>
-			<Item Name="Constraint.lvlib" Type="Library" URL="../Constraint/Constraint.lvlib"/>
-			<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
-			<Item Name="ControlData.ctl" Type="VI" URL="../ControlData.ctl"/>
-			<Item Name="Test Discoverer.lvclass" Type="LVClass" URL="../Test Discoverer/Test Discoverer.lvclass"/>
-			<Item Name="Test Case.lvclass" Type="LVClass" URL="../Test Case/Test Case.lvclass"/>
-			<Item Name="LVUnit Test Discoverer.lvclass" Type="LVClass" URL="../LVUnit Test Discoverer/LVUnit Test Discoverer.lvclass"/>
-			<Item Name="Json Data Reader.lvclass" Type="LVClass" URL="../Json Data Reader/Json Data Reader.lvclass"/>
-			<Item Name="Test Executor.lvclass" Type="LVClass" URL="../Test Executor/Test Executor.lvclass"/>
-			<Item Name="LVUnit Test Executor.lvclass" Type="LVClass" URL="../LVUnit Test Executor/LVUnit Test Executor.lvclass"/>
-			<Item Name="Test Result.lvclass" Type="LVClass" URL="../Test Result/Test Result.lvclass"/>
-			<Item Name="Test Outcome.ctl" Type="VI" URL="../Test Outcome.ctl"/>
-			<Item Name="LVUnit Test Case.lvclass" Type="LVClass" URL="../LVUnit Test Case/LVUnit Test Case.lvclass"/>
-		</Item>
-		<Item Name="Core.Tests" Type="Folder">
 			<Item Name="CodeCoverage.Tests.lvlib" Type="Library" URL="../CodeCoverage.Tests/CodeCoverage.Tests.lvlib"/>
-			<Item Name="Assertion.Tests.lvlib" Type="Library" URL="../Assertion.Tests/Assertion.Tests.lvlib"/>
-			<Item Name="Constraint.Tests.lvlib" Type="Library" URL="../Constraint.Tests/Constraint.Tests.lvlib"/>
-			<Item Name="Configuration.Tests.lvlib" Type="Library" URL="../Configuration.Tests/Configuration.Tests.lvlib"/>
-			<Item Name="Error.Tests.lvlib" Type="Library" URL="../Error.Tests/Error.Tests.lvlib"/>
-			<Item Name="LVUnit Test Discoverer.Tests.lvlib" Type="Library" URL="../LVUnit Test Discoverer.Tests/LVUnit Test Discoverer.Tests.lvlib"/>
-			<Item Name="Test Case.Tests.lvlib" Type="Library" URL="../Test Case.Tests/Test Case.Tests.lvlib"/>
-			<Item Name="Json Data Reader.Tests.lvlib" Type="Library" URL="../Json Data Reader.Tests/Json Data Reader.Tests.lvlib"/>
-			<Item Name="LVUnit Test Executor.Tests.lvlib" Type="Library" URL="../LVUnit Test Executor.Tests/LVUnit Test Executor.Tests.lvlib"/>
-			<Item Name="Test Result.Tests.lvlib" Type="Library" URL="../Test Result.Tests/Test Result.Tests.lvlib"/>
 		</Item>
-		<Item Name="UX" Type="Folder">
+		<Item Name="Test Explorer" Type="Folder">
 			<Item Name="ResultTree.lvclass" Type="LVClass" URL="../ResultTree/ResultTree.lvclass"/>
 			<Item Name="Test Explorer.lvlib" Type="Library" URL="../Test Explorer/Test Explorer.lvlib"/>
-		</Item>
-		<Item Name="Common" Type="Folder">
-			<Item Name="GetOwningLibrary.vi" Type="VI" URL="../GetOwningLibrary.vi"/>
+			<Item Name="Test Case.lvclass" Type="LVClass" URL="../Test Case/Test Case.lvclass"/>
+			<Item Name="Test Case.Tests.lvlib" Type="Library" URL="../Test Case.Tests/Test Case.Tests.lvlib"/>
+			<Item Name="Test Discoverer.lvclass" Type="LVClass" URL="../Test Discoverer/Test Discoverer.lvclass"/>
+			<Item Name="Test Executor.lvclass" Type="LVClass" URL="../Test Executor/Test Executor.lvclass"/>
+			<Item Name="Test Outcome.ctl" Type="VI" URL="../Test Outcome.ctl"/>
+			<Item Name="Test Result.lvclass" Type="LVClass" URL="../Test Result/Test Result.lvclass"/>
+			<Item Name="Test Result.Tests.lvlib" Type="Library" URL="../Test Result.Tests/Test Result.Tests.lvlib"/>
+			<Item Name="Configuration.lvlib" Type="Library" URL="../Configuration/Configuration.lvlib"/>
+			<Item Name="Configuration.Tests.lvlib" Type="Library" URL="../Configuration.Tests/Configuration.Tests.lvlib"/>
 		</Item>
 		<Item Name="Quick Drop" Type="Folder">
 			<Item Name="Start Test Explorer.vi" Type="VI" URL="../Quick Drop/Start Test Explorer.vi"/>
+		</Item>
+		<Item Name="LVUnit" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Json Data Reader.lvclass" Type="LVClass" URL="../Json Data Reader/Json Data Reader.lvclass"/>
+			<Item Name="Json Data Reader.Tests.lvlib" Type="Library" URL="../Json Data Reader.Tests/Json Data Reader.Tests.lvlib"/>
+			<Item Name="LVUnit Test Case.lvclass" Type="LVClass" URL="../LVUnit Test Case/LVUnit Test Case.lvclass"/>
+			<Item Name="LVUnit Test Discoverer.lvclass" Type="LVClass" URL="../LVUnit Test Discoverer/LVUnit Test Discoverer.lvclass"/>
+			<Item Name="LVUnit Test Discoverer.Tests.lvlib" Type="Library" URL="../LVUnit Test Discoverer.Tests/LVUnit Test Discoverer.Tests.lvlib"/>
+			<Item Name="LVUnit Test Executor.lvclass" Type="LVClass" URL="../LVUnit Test Executor/LVUnit Test Executor.lvclass"/>
+			<Item Name="LVUnit Test Executor.Tests.lvlib" Type="Library" URL="../LVUnit Test Executor.Tests/LVUnit Test Executor.Tests.lvlib"/>
+		</Item>
+		<Item Name="Assertion" Type="Folder">
+			<Item Name="Assertion.lvlib" Type="Library" URL="../Assertion/Assertion.lvlib"/>
+			<Item Name="Assertion.Tests.lvlib" Type="Library" URL="../Assertion.Tests/Assertion.Tests.lvlib"/>
+			<Item Name="Constraint.lvlib" Type="Library" URL="../Constraint/Constraint.lvlib"/>
+			<Item Name="Constraint.Tests.lvlib" Type="Library" URL="../Constraint.Tests/Constraint.Tests.lvlib"/>
+			<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
+			<Item Name="Error.Tests.lvlib" Type="Library" URL="../Error.Tests/Error.Tests.lvlib"/>
 		</Item>
 		<Item Name="UnitTestFrameworkToolkit.lvlib" Type="Library" URL="../UnitTestFrameworkToolkit/UnitTestFrameworkToolkit.lvlib"/>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
