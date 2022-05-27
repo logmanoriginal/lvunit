@@ -52,7 +52,6 @@
 			<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
 			<Item Name="Error.Tests.lvlib" Type="Library" URL="../Error.Tests/Error.Tests.lvlib"/>
 		</Item>
-		<Item Name="UnitTestFrameworkToolkit.lvlib" Type="Library" URL="../UnitTestFrameworkToolkit/UnitTestFrameworkToolkit.lvlib"/>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
 		<Item Name="LICENSE" Type="Document" URL="../LICENSE"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
@@ -97,7 +96,6 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
 				<Item Name="JDP Timestamp.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Timestamp/JDP Timestamp.lvlib"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
