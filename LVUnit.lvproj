@@ -34,8 +34,6 @@
 		</Item>
 		<Item Name="LVUnit" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="Json Data Reader.lvclass" Type="LVClass" URL="../Json Data Reader/Json Data Reader.lvclass"/>
-			<Item Name="Json Data Reader.Tests.lvlib" Type="Library" URL="../Json Data Reader.Tests/Json Data Reader.Tests.lvlib"/>
 			<Item Name="LVUnit Test Case.lvclass" Type="LVClass" URL="../LVUnit Test Case/LVUnit Test Case.lvclass"/>
 			<Item Name="LVUnit Test Discoverer.lvclass" Type="LVClass" URL="../LVUnit Test Discoverer/LVUnit Test Discoverer.lvclass"/>
 			<Item Name="LVUnit Test Discoverer.Tests.lvlib" Type="Library" URL="../LVUnit Test Discoverer.Tests/LVUnit Test Discoverer.Tests.lvlib"/>
