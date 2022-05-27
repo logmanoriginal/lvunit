@@ -10,6 +10,5 @@
 		<Item Name="Empty.json" Type="Document" URL="../Empty.json"/>
 	</Item>
 	<Item Name="Get All Data Names - When 1 Element - Returns 1 Element.vi" Type="VI" URL="../Get All Data Names - When 1 Element - Returns 1 Element.vi"/>
-	<Item Name="Get All Data Names - When File Is Empty - Returns Empty Array.vi" Type="VI" URL="../Get All Data Names - When File Is Empty - Returns Empty Array.vi"/>
 	<Item Name="Get All Data Names - When File Is Missing - Returns Error.vi" Type="VI" URL="../Get All Data Names - When File Is Missing - Returns Error.vi"/>
 </Library>

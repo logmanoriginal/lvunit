@@ -28,6 +28,7 @@
 			<Item Name="LVUnit Test Executor.lvclass" Type="LVClass" URL="../LVUnit Test Executor/LVUnit Test Executor.lvclass"/>
 			<Item Name="Test Result.lvclass" Type="LVClass" URL="../Test Result/Test Result.lvclass"/>
 			<Item Name="Test Outcome.ctl" Type="VI" URL="../Test Outcome.ctl"/>
+			<Item Name="LVUnit Test Case.lvclass" Type="LVClass" URL="../LVUnit Test Case/LVUnit Test Case.lvclass"/>
 		</Item>
 		<Item Name="Core.Tests" Type="Folder">
 			<Item Name="CodeCoverage.Tests.lvlib" Type="Library" URL="../CodeCoverage.Tests/CodeCoverage.Tests.lvlib"/>
@@ -117,6 +118,13 @@
 				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
 				<Item Name="Single String To Qualified Name Array.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Single String To Qualified Name Array.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+				<Item Name="Serialization Binder.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/JSONtext Object Serialization/Serialization Binder/Serialization Binder.lvclass"/>
+				<Item Name="Generic Object Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/JSONtext Object Serialization/Generic Object Serializer/Generic Object Serializer.lvclass"/>
+				<Item Name="Default Serialization Binder.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/JSONtext Object Serialization/Default Serialization Binder/Default Serialization Binder.lvclass"/>
+				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
+				<Item Name="__JSONtext__Variant to Flattened String (special).vi" Type="VI" URL="/&lt;vilib&gt;/PNR/JSONtext Object Serialization/Vendor/__JSONtext__Variant to Flattened String (special).vi"/>
+				<Item Name="Composition.lvlib" Type="Library" URL="/&lt;vilib&gt;/PNR/LabVIEW Composition/Composition/Composition.lvlib"/>
+				<Item Name="Edit LVLibs.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/EditLVLibs/Edit LVLibs.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

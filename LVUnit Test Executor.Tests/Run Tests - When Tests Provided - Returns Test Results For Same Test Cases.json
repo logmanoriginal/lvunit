@@ -4,13 +4,16 @@
         "data": {
             "Test Cases": [
                 {
+                    "$type": "LVUnit Test Case.lvclass",
                     "Path": "Fake Test.vi",
                     "Qualified Name": "Fake Test.vi"
                 }
             ],
             "Test Results": [
                 {
+                    "$type": "Test Result.lvclass",
                     "Test Case": {
+                        "$type": "LVUnit Test Case.lvclass",
                         "Path": "Fake Test.vi",
                         "Qualified Name": "Fake Test.vi"
                     },
