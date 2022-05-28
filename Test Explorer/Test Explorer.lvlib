@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Internal VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Array Element Count.vi" Type="VI" URL="../Array Element Count.vi"/>
 		<Item Name="Monitor Active Project.vi" Type="VI" URL="../Monitor Active Project.vi"/>
 		<Item Name="Set Result Tree Icons.vi" Type="VI" URL="../Set Result Tree Icons.vi"/>
 	</Item>
