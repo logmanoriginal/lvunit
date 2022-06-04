@@ -12,7 +12,6 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 * LabVIEW&trade; 2017 or later
 * VI Package Manager
-* (optional) LabVIEW&trade; Unit Test Framework Toolkit 2017 or later -- some features are not available when this toolkit is missing.
 
 ### Installation
 1. Clone the repo
@@ -27,54 +26,62 @@ To get a local copy up and running follow these simple steps.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-Test suites are defined by project libraries with suffix "Tests.lvlib" (can be changed).
 
-![Test Suite](.github/images/example1-project.png)
+To create a test case, simply place one of the assertion functions on your block diagram and create an indicator for the error output terminal.
 
-Every public VI inside such a project library is considered a test case. Test cases must have an error output terminal and should use assertion functions.
+![Test Case](.github/images/test-case.png)
 
-![Test Case](.github/images/example1-testcase.png)
+Run your tests manually, or use Test Explorer to discover and execute all tests in your project.
 
-Any error returned by a test case is considered a test failure, even if the error does not originate from an assertion function. Run the VI to get the result on the error output control.
+You can open Test Explorer from the Tools menu or via the Quick Drop Shortcut 'Ctrl+E'.
 
-![Error Report](.github/images/example1-error.png)
+![Test Explorer](.github/images/test-explorer.png)
 
-Use **Tools** > **Test Explorer** to run all tests in a project.
+### Parameterized Tests (Theories)
 
-![Test Explorer](.github/images/example1-testexplorer.png)
+Theories are test cases that can be executed with different data sets.
 
-Double-click a test case to open the VI.
+To create a theory, simply connect controls to terminals.
 
-### Theories
-Theories are test cases with input terminals.
+![Theory](.github/images/theory.png)
 
-![Theory](.github/images/example2-theory.png)
+To define data sets for your theory, place a JSON file with the same file name in the same folder as the test case.
 
-Place a JSON file next to the VI with the same file name:
+For example:
+* Theory1.vi
+* Theory1.json
+
+The JSON file has the following syntax:
 ```JSON
 [
   {
-    "name": "String with whitespace",
+    "name": "Message 1",
     "data": {
-      "input": "Hello World!",
-      "expected": "HelloWorld!"
+      "expected": "Failed asserting that...",
+      "message": "Failed asserting that..."
     }
   },
   {
-    "name": "String without whitespace",
+    "name": "Message 2",
     "data": {
-      "input": "HelloWorld!",
-      "expected": "HelloWorld!"
+      "expected": "Test failed!",
+      "message": "Test failed!"
     }
   }
 ]
 ```
 
-Use **Tools** > **Test Explorer** to run all tests in a project. Notice that each configuration appears separately in the list.
+Use Test Explorer to discover and execute all theories in your project. Notice that an entry is added for each data set in your theory.
 
-![Test Explorer](.github/images/example2-testexplorer.png)
+![Test Explorer](.github/images/test-explorer-theory.png)
 
-Double-click a test case to open the VI with that configuration.
+### Advanced Features
+
+* You can open a test case directly from Test Explorer by double-clicking on the test case in the tree. To open a theory, you have to double-click on one of its data sets. This will populate the theory with the selected data set.
+* Test Explorer categorizes test cases based on their qualified name. You can place test cases in project libraries to categorize them in Test Explorer.
+* Test cases must be public. You can disable a test case by changing the scope (or the scope of its parent) to private.
+* Test cases that return an error at the error output terminal are considered failed. This includes any error that isn't a result of an assertion.
+* Test Explorer automatically discovers tests in your project. When you select a different project, Test Explorer scans the new project automatically.
 
 <!-- ROADMAP -->
 ## Roadmap
