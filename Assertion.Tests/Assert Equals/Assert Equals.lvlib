@@ -10,6 +10,7 @@
 
 </Property>
 	<Item Name="Different.vi" Type="VI" URL="../Different.vi"/>
+	<Item Name="LabVIEW Object - Error Message Contains JSON Representation.vi" Type="VI" URL="../LabVIEW Object - Error Message Contains JSON Representation.vi"/>
 	<Item Name="Message.vi" Type="VI" URL="../Message.vi"/>
 	<Item Name="Same.vi" Type="VI" URL="../Same.vi"/>
 </Library>
