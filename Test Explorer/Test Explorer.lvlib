@@ -10,5 +10,9 @@
 		<Item Name="Monitor Active Project.vi" Type="VI" URL="../Monitor Active Project.vi"/>
 		<Item Name="Set Result Tree Icons.vi" Type="VI" URL="../Set Result Tree Icons.vi"/>
 	</Item>
+	<Item Name="JUnit" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Write JUnit Report.vi" Type="VI" URL="../Write JUnit Report.vi"/>
+	</Item>
 	<Item Name="Test Explorer.vi" Type="VI" URL="../Test Explorer.vi"/>
 </Library>

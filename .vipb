@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2022-06-04 10:10:31" Creator="Pascal Neuperger" Comments="" ID="611688f531ffa9c85a4be5925d07dba7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2022-06-04 14:05:56" Creator="Pascal Neuperger" Comments="" ID="2bdbd5d002f9dd8a19d3dec833fca89d">
   <Library_General_Settings>
     <Package_File_Name>PNR_lib_LVUnit</Package_File_Name>
-    <Library_Version>0.1.0.16</Library_Version>
+    <Library_Version>0.1.0.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -19,9 +19,16 @@
     <Package_Dependencies>
       <External_Dependencies>jdp_science_jsontext &gt;= 1.6.7.107</External_Dependencies>
       <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.0.17</External_Dependencies>
-      <Additional_External_Dependencies>pnr_lib_jsontext_object_serialization &gt;=1.0.3.24</Additional_External_Dependencies>
+      <External_Dependencies>ni_lib_junit_results_api &gt;= 1.0.1.6</External_Dependencies>
+      <External_Dependencies>ni_lib_simple_xml &gt;= 1.0.0.4</External_Dependencies>
+      <External_Dependencies>pnr_lib_jsontext_object_serialization &gt;= 1.0.3.24</External_Dependencies>
+      <External_Dependencies>pnr_lib_labview_composition &gt;= 1.3.0.25</External_Dependencies>
       <Direct_Dependencies>jdp_science_jsontext-1.6.7.107</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.0.17</Direct_Dependencies>
+      <Direct_Dependencies>ni_lib_junit_results_api-1.0.1.6</Direct_Dependencies>
+      <Direct_Dependencies>ni_lib_simple_xml-1.0.0.4</Direct_Dependencies>
+      <Direct_Dependencies>pnr_lib_jsontext_object_serialization-1.0.3.24</Direct_Dependencies>
+      <Direct_Dependencies>pnr_lib_labview_composition-1.3.0.25</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -522,7 +529,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <Path>Assertion\Assert True.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>80DE2EDF300D6C6024AD8C98D45DC459</GUID>
+      <GUID>8F9D6B68300A93B3E66D8A94ABD27A37</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

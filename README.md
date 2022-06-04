@@ -114,3 +114,4 @@ Project Link: [https://github.com/logmanoriginal/lvunit](https://github.com/logm
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [JSONtext](https://bitbucket.org/drjdpowell/jsontext)
+* [JUnit Results Library](https://github.com/NISystemsEngineering/LV-JUnit/)
