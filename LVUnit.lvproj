@@ -48,6 +48,7 @@
 			<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
 			<Item Name="Error.Tests.lvlib" Type="Library" URL="../Error.Tests/Error.Tests.lvlib"/>
 			<Item Name="Framework.lvlib" Type="Library" URL="../Framework/Framework.lvlib"/>
+			<Item Name="Configuration.lvlib" Type="Library" URL="../Configuration/Configuration.lvlib"/>
 		</Item>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
 		<Item Name="LICENSE" Type="Document" URL="../LICENSE"/>
