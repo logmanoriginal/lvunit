@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Caraya Test Framework.lvclass" Type="LVClass" URL="../Caraya Test Framework/Caraya Test Framework.lvclass"/>
 	<Item Name="LVUnit Test Framework.lvclass" Type="LVClass" URL="../LVUnit Test Framework/LVUnit Test Framework.lvclass"/>
 	<Item Name="Test Framework Factory.lvclass" Type="LVClass" URL="../Test Framework Factory/Test Framework Factory.lvclass"/>
 	<Item Name="Test Framework.ctl" Type="VI" URL="../Test Framework.ctl"/>
