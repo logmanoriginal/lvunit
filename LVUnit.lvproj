@@ -40,16 +40,6 @@
 			<Item Name="LVUnit Test Executor.lvclass" Type="LVClass" URL="../LVUnit Test Executor/LVUnit Test Executor.lvclass"/>
 			<Item Name="LVUnit Test Executor.Tests.lvlib" Type="Library" URL="../LVUnit Test Executor.Tests/LVUnit Test Executor.Tests.lvlib"/>
 		</Item>
-		<Item Name="Assertion" Type="Folder">
-			<Item Name="Assertion.lvlib" Type="Library" URL="../Assertion/Assertion.lvlib"/>
-			<Item Name="Assertion.Tests.lvlib" Type="Library" URL="../Assertion.Tests/Assertion.Tests.lvlib"/>
-			<Item Name="Constraint.lvlib" Type="Library" URL="../Constraint/Constraint.lvlib"/>
-			<Item Name="Constraint.Tests.lvlib" Type="Library" URL="../Constraint.Tests/Constraint.Tests.lvlib"/>
-			<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
-			<Item Name="Error.Tests.lvlib" Type="Library" URL="../Error.Tests/Error.Tests.lvlib"/>
-			<Item Name="Framework.lvlib" Type="Library" URL="../Framework/Framework.lvlib"/>
-			<Item Name="Configuration.lvlib" Type="Library" URL="../Configuration/Configuration.lvlib"/>
-		</Item>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
 		<Item Name="LICENSE" Type="Document" URL="../LICENSE"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
@@ -123,6 +113,7 @@
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="Transparent Assertions.lvlib" Type="Library" URL="/&lt;vilib&gt;/PNR/Transparent Assertions/Transparent Assertions/Transparent Assertions.lvlib"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
