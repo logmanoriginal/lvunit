@@ -40,9 +40,6 @@
 			<Item Name="LVUnit Test Executor.lvclass" Type="LVClass" URL="../LVUnit Test Executor/LVUnit Test Executor.lvclass"/>
 			<Item Name="LVUnit Test Executor.Tests.lvlib" Type="Library" URL="../LVUnit Test Executor.Tests/LVUnit Test Executor.Tests.lvlib"/>
 		</Item>
-		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
-		<Item Name="LICENSE" Type="Document" URL="../LICENSE"/>
-		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -113,7 +110,6 @@
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="Transparent Assertions.lvlib" Type="Library" URL="/&lt;vilib&gt;/PNR/Transparent Assertions/Transparent Assertions/Transparent Assertions.lvlib"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
