@@ -15,7 +15,6 @@
 		<Item Name="Code Coverage" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="CodeCoverage.lvclass" Type="LVClass" URL="../CodeCoverage/CodeCoverage.lvclass"/>
-			<Item Name="CodeCoverage.Tests.lvlib" Type="Library" URL="../CodeCoverage.Tests/CodeCoverage.Tests.lvlib"/>
 		</Item>
 		<Item Name="LVUnit" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
