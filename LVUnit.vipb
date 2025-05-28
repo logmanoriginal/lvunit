@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2025-05-28 10:28:30" Creator="Pascal Neuperger" Comments="" ID="354d07a521fb0fe9a0ad67ec847c728d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2025-05-28 11:24:25" Creator="Pascal Neuperger" Comments="" ID="2ed9c8a5758e6353552d6f6b54d16a9f">
   <Library_General_Settings>
     <Package_File_Name>PNR_lib_LVUnit</Package_File_Name>
-    <Library_Version>0.1.0.21</Library_Version>
+    <Library_Version>0.1.0.22</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
