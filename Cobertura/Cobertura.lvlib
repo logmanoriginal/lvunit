@@ -7,6 +7,7 @@
 	<Item Name="Class.lvclass" Type="LVClass" URL="../Class/Class.lvclass"/>
 	<Item Name="Coverage.lvclass" Type="LVClass" URL="../Coverage/Coverage.lvclass"/>
 	<Item Name="Create Coverage Report.vi" Type="VI" URL="../Create Coverage Report.vi"/>
+	<Item Name="Method.lvclass" Type="LVClass" URL="../Method/Method.lvclass"/>
 	<Item Name="Package.lvclass" Type="LVClass" URL="../Package/Package.lvclass"/>
 	<Item Name="Save Coverage Report.vi" Type="VI" URL="../Save Coverage Report.vi"/>
 	<Item Name="Serializable.lvclass" Type="LVClass" URL="../Serializable/Serializable.lvclass"/>
