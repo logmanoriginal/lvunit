@@ -7,6 +7,9 @@
 	<Item Name="Class.lvclass" Type="LVClass" URL="../Class/Class.lvclass"/>
 	<Item Name="Coverage.lvclass" Type="LVClass" URL="../Coverage/Coverage.lvclass"/>
 	<Item Name="Create Coverage Report.vi" Type="VI" URL="../Create Coverage Report.vi"/>
+	<Item Name="Format Rate.vi" Type="VI" URL="../Format Rate.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="Line.lvclass" Type="LVClass" URL="../Line/Line.lvclass"/>
 	<Item Name="Method.lvclass" Type="LVClass" URL="../Method/Method.lvclass"/>
 	<Item Name="Package.lvclass" Type="LVClass" URL="../Package/Package.lvclass"/>
