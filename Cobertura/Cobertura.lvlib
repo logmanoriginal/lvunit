@@ -10,6 +10,9 @@
 	<Item Name="Format Rate.vi" Type="VI" URL="../Format Rate.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Format Timestamp.vi" Type="VI" URL="../Format Timestamp.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="Line.lvclass" Type="LVClass" URL="../Line/Line.lvclass"/>
 	<Item Name="Method.lvclass" Type="LVClass" URL="../Method/Method.lvclass"/>
 	<Item Name="Package.lvclass" Type="LVClass" URL="../Package/Package.lvclass"/>
