@@ -16,6 +16,9 @@
 	<Item Name="Line.lvclass" Type="LVClass" URL="../Line/Line.lvclass"/>
 	<Item Name="Method.lvclass" Type="LVClass" URL="../Method/Method.lvclass"/>
 	<Item Name="Package.lvclass" Type="LVClass" URL="../Package/Package.lvclass"/>
+	<Item Name="Remove File Extensions.vi" Type="VI" URL="../Remove File Extensions.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="Save Coverage Report.vi" Type="VI" URL="../Save Coverage Report.vi"/>
 	<Item Name="Serializable.lvclass" Type="LVClass" URL="../Serializable/Serializable.lvclass"/>
 </Library>
