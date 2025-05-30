@@ -40,6 +40,7 @@
 		</Item>
 		<Item Name="Array Element Count.vi" Type="VI" URL="../Array Element Count.vi"/>
 		<Item Name="Cobertura.lvlib" Type="Library" URL="../Cobertura/Cobertura.lvlib"/>
+		<Item Name="Cobertura.Tests.lvlib" Type="Library" URL="../Cobertura.Tests/Cobertura.Tests.lvlib"/>
 		<Item Name="JUnit.lvlib" Type="Library" URL="../JUnit/JUnit.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
