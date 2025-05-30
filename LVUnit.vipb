@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2025-05-30 20:13:52" Creator="Pascal Neuperger" Comments="" ID="389859bce975d9d8c7ffa52be5260f3e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2025-05-30 22:26:12" Creator="Pascal Neuperger" Comments="" ID="7c825d0790a635d7ab04b91cc3fb96e4">
   <Library_General_Settings>
     <Package_File_Name>PNR_lib_LVUnit</Package_File_Name>
     <Library_Version>0.1.0.31</Library_Version>
@@ -19,16 +19,14 @@
     <Package_Dependencies>
       <External_Dependencies>jdp_science_jsontext &gt;= 1.6.10.113</External_Dependencies>
       <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.0.17</External_Dependencies>
-      <External_Dependencies>ni_lib_junit_results_api &gt;= 1.0.1.6</External_Dependencies>
-      <External_Dependencies>ni_lib_simple_xml &gt;= 1.0.0.4</External_Dependencies>
       <External_Dependencies>pnr_lib_jsontext_object_serialization &gt;= 1.0.4.25</External_Dependencies>
       <External_Dependencies>pnr_lib_labview_composition &gt;= 1.4.0.30</External_Dependencies>
+      <External_Dependencies>pnr_lib_transparent_assertions &gt;= 0.1.0.19</External_Dependencies>
       <Direct_Dependencies>jdp_science_jsontext-1.6.10.113</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.0.17</Direct_Dependencies>
-      <Direct_Dependencies>ni_lib_junit_results_api-1.0.1.6</Direct_Dependencies>
-      <Direct_Dependencies>ni_lib_simple_xml-1.0.0.4</Direct_Dependencies>
       <Direct_Dependencies>pnr_lib_jsontext_object_serialization-1.0.4.25</Direct_Dependencies>
       <Direct_Dependencies>pnr_lib_labview_composition-1.4.0.30</Direct_Dependencies>
+      <Direct_Dependencies>pnr_lib_transparent_assertions-0.1.0.19</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
