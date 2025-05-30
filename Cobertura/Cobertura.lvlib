@@ -18,6 +18,8 @@
 	<Item Name="Line.lvclass" Type="LVClass" URL="../Line/Line.lvclass"/>
 	<Item Name="Method.lvclass" Type="LVClass" URL="../Method/Method.lvclass"/>
 	<Item Name="Package.lvclass" Type="LVClass" URL="../Package/Package.lvclass"/>
+	<Item Name="Project Inspector Base.lvclass" Type="LVClass" URL="../Project Inspector Base/Project Inspector Base.lvclass"/>
+	<Item Name="Project Inspector.lvclass" Type="LVClass" URL="../Project Inspector/Project Inspector.lvclass"/>
 	<Item Name="Remove File Extensions.vi" Type="VI" URL="../Remove File Extensions.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
