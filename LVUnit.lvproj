@@ -14,7 +14,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Code Coverage" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="CodeCoverage.lvclass" Type="LVClass" URL="../CodeCoverage/CodeCoverage.lvclass"/>
+			<Item Name="Code Coverage.lvclass" Type="LVClass" URL="../Code Coverage/Code Coverage.lvclass"/>
 		</Item>
 		<Item Name="LVUnit" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
