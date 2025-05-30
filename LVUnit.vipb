@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2025-05-30 19:27:04" Creator="Pascal Neuperger" Comments="" ID="29848999ea57d3bf19914979b7c288ad">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-02-26 20:21:53" Modified_Date="2025-05-30 20:13:52" Creator="Pascal Neuperger" Comments="" ID="389859bce975d9d8c7ffa52be5260f3e">
   <Library_General_Settings>
     <Package_File_Name>PNR_lib_LVUnit</Package_File_Name>
-    <Library_Version>0.1.0.27</Library_Version>
+    <Library_Version>0.1.0.31</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -34,7 +34,7 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI/>
+      <Post-Install_VI>Toolchain\Post-Install Custom Action.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
