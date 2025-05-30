@@ -4,8 +4,29 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Support" Type="Folder">
+		<Item Name="Fake Code Coverage.lvclass" Type="LVClass" URL="../Fake Code Coverage/Fake Code Coverage.lvclass"/>
+		<Item Name="Fake Code Inspector.lvclass" Type="LVClass" URL="../Fake Code Inspector/Fake Code Inspector.lvclass"/>
+		<Item Name="Fake Project Inspector.lvclass" Type="LVClass" URL="../Fake Project Inspector/Fake Project Inspector.lvclass"/>
+	</Item>
 	<Item Name="Class.lvlib" Type="Library" URL="../Class/Class.lvlib"/>
 	<Item Name="Coverage.lvlib" Type="Library" URL="../Coverage/Coverage.lvlib"/>
+	<Item Name="Create Coverage Report - Always 100 Lines.vi" Type="VI" URL="../Create Coverage Report - Always 100 Lines.vi"/>
+	<Item Name="Create Coverage Report - Branch Rate is Based on Diagram Count.vi" Type="VI" URL="../Create Coverage Report - Branch Rate is Based on Diagram Count.vi"/>
+	<Item Name="Create Coverage Report - Class Filename is VI Path.vi" Type="VI" URL="../Create Coverage Report - Class Filename is VI Path.vi"/>
+	<Item Name="Create Coverage Report - Class Name is VI File Name.vi" Type="VI" URL="../Create Coverage Report - Class Name is VI File Name.vi"/>
+	<Item Name="Create Coverage Report - Item Path In Subfolder - Package Name Is Relative Path.vi" Type="VI" URL="../Create Coverage Report - Item Path In Subfolder - Package Name Is Relative Path.vi"/>
+	<Item Name="Create Coverage Report - Item Path Same As Project Path - Package Name Is Relative Path.vi" Type="VI" URL="../Create Coverage Report - Item Path Same As Project Path - Package Name Is Relative Path.vi"/>
+	<Item Name="Create Coverage Report - Line Numbes Incremented.vi" Type="VI" URL="../Create Coverage Report - Line Numbes Incremented.vi"/>
+	<Item Name="Create Coverage Report - Line Rate is Percentage Covered.vi" Type="VI" URL="../Create Coverage Report - Line Rate is Percentage Covered.vi"/>
+	<Item Name="Create Coverage Report - Lines below Coverage Percentage are Hit.vi" Type="VI" URL="../Create Coverage Report - Lines below Coverage Percentage are Hit.vi"/>
+	<Item Name="Create Coverage Report - Method Name is VI File Name without Extension.vi" Type="VI" URL="../Create Coverage Report - Method Name is VI File Name without Extension.vi"/>
+	<Item Name="Create Coverage Report - No Project Files - Reports No Packages.vi" Type="VI" URL="../Create Coverage Report - No Project Files - Reports No Packages.vi"/>
+	<Item Name="Create Coverage Report - No Time Stamp - Reports Current Time.vi" Type="VI" URL="../Create Coverage Report - No Time Stamp - Reports Current Time.vi"/>
+	<Item Name="Create Coverage Report - Qualified Name Empty - Package Name Is Relative Path.vi" Type="VI" URL="../Create Coverage Report - Qualified Name Empty - Package Name Is Relative Path.vi"/>
+	<Item Name="Create Coverage Report - With Custom Time Stamp - Reports Same Time.vi" Type="VI" URL="../Create Coverage Report - With Custom Time Stamp - Reports Same Time.vi"/>
+	<Item Name="Create Coverage Report - With Parent - Package Name Is Parent Qualified Name.vi" Type="VI" URL="../Create Coverage Report - With Parent - Package Name Is Parent Qualified Name.vi"/>
+	<Item Name="Create Coverage Report - With Project Files - Reports Package With Same Number of Classes.vi" Type="VI" URL="../Create Coverage Report - With Project Files - Reports Package With Same Number of Classes.vi"/>
 	<Item Name="Line.lvlib" Type="Library" URL="../Line/Line.lvlib"/>
 	<Item Name="Method.lvlib" Type="Library" URL="../Method/Method.lvlib"/>
 	<Item Name="Package.lvlib" Type="Library" URL="../Package/Package.lvlib"/>
