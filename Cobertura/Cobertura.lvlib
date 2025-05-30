@@ -5,6 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Class.lvclass" Type="LVClass" URL="../Class/Class.lvclass"/>
+	<Item Name="Code Inspector Base.lvclass" Type="LVClass" URL="../Code Inspector Base/Code Inspector Base.lvclass"/>
+	<Item Name="Code Inspector.lvclass" Type="LVClass" URL="../Code Inspector/Code Inspector.lvclass"/>
 	<Item Name="Coverage.lvclass" Type="LVClass" URL="../Coverage/Coverage.lvclass"/>
 	<Item Name="Create Coverage Report.vi" Type="VI" URL="../Create Coverage Report.vi"/>
 	<Item Name="Format Rate.vi" Type="VI" URL="../Format Rate.vi">
