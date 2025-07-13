@@ -9,7 +9,7 @@ steps:
 - task: CmdLine@2
   displayName: 'Restore packages'
   inputs:
-    script: 'LabVIEWCLI -LabVIEWPath "%LabVIEW%\LabVIEW.exe" -AdditionalOperationDirectory "$(Build.SourcesDirectory)\Toolchain" -OperationName Restore -Configuration "$(Build.SourcesDirectory)\LVUnit.vipc"'
+    script: 'LabVIEWCLI -LabVIEWPath "%LabVIEW%\LabVIEW.exe" -AdditionalOperationDirectory "$(Build.SourcesDirectory)\Toolchain" -OperationName Restore -Configuration "$(Build.SourcesDirectory)\azure-pipelines.vipc"'
     workingDirectory: '$(Build.SourcesDirectory)'
 - task: CmdLine@2
   displayName: 'Run tests'
