@@ -4,7 +4,6 @@
 [![Issues][issues-shield]][issues-url]
 [![BSD-3-Clause License][license-shield]][license-url]
 
-<!-- PROJECT LOGO -->
 <br>
 <p align="center">
   <a href="https://github.com/logmanoriginal/LVUnit">
@@ -27,14 +26,12 @@
   </p>
 </p>
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 **LVUnit** is a unit testing framework for LabVIEW&trade;.
 
 ## Built With
 * [LabVIEW&trade;](https://ni.com/labview)
 
-<!-- GETTING STARTED -->
 ## Getting Started
 To get a local copy up and running follow these simple steps.
 
@@ -53,10 +50,12 @@ To get a local copy up and running follow these simple steps.
     ```
     Or apply `.vipc` manually.
 
-<!-- USAGE EXAMPLES -->
 ## Usage
 
-You can open Test Explorer from the Tools menu or via the Quick Drop Shortcut 'Ctrl+E'.
+1. Open a project
+2. Start Test Explorer from the Tools menu or via the Quick Drop Shortcut 'Ctrl+E'.
+
+Test Explorer automatically scans the project and shows all detected test cases.
 
 ![Test Explorer](.github/images/test-explorer.png)
 
@@ -98,21 +97,103 @@ Use Test Explorer to discover and execute all theories in your project. Notice t
 
 ![Test Explorer](.github/images/test-explorer-theory.png)
 
-### Advanced Features
+## Features
 
-* LVUnit can be used from LabVIEW CLI to generate test and coverage reports from your CI/CD pipeline. See the `Test` operation in the [Toolchain](Toolchain) directory for a working example.
-* You can open a test case directly from Test Explorer by double-clicking on the test case in the tree. For theories, you need to double-click on one of its data sets. This will populate the theory with the selected data set for your convenience.
-* Test Explorer categorizes test cases based on their qualified name. You can place test cases in project libraries and Test Explorer will categorize them accordingly.
-* Test cases must be public. You can disable a test case by changing the scope (or the scope of its parent) to private.
-* Test cases that return an error at the error output terminal are considered failed. This includes any error that isn't a result of an assertion.
-* Test Explorer automatically discovers tests in your project. When you select a different project, Test Explorer scans the new project automatically.
-* Test Explorer supports code coverage. You can export code coverage data to a Covertura XML file. Note, however, that code coverage in LabVIEW is very limited and does not work right for VIMs, polymorphic VIs, and various other file types. Code coverage is reported as "lines" (because Cobertura has no concept for nodes) where the coverage percentage is reported as x/100 lines. This is a quick hack that is likely to change in the future. Use code coverage with caution. See the build pipeline for LVUnit for an example of how code coverage reports can be integrated into an CI/CD pipeline.
+### Automatic Test Discovery and Categorization
 
-<!-- ROADMAP -->
+Test Explorer automatically discovers tests in a project. When a different project is selected, Test Explorer scans the new project automatically and categorizes test cases based on their fully-qualified name into a nested tree, reflecting their natural project structure.
+
+![Test Discovery & Categorization](.github/images/test-discovery.png)
+
+### Navigate to Test Case
+
+A test case can directly be opened from Test Explorer by double-clicking an item in the tree. For theories, one of the child items must be selected, causing the test case to automatically be pre-configured with the associated test data.
+
+<img src=".github/images/test-explorer-navigation.gif" />
+
+### Code Coverage Reports
+
+Test Explorer supports code coverage reports in Cobertura XML format.
+
+> [!IMPORTANT]
+> Code coverage support in LabVIEW is very limited and does not work for VIMs, polymorphic VIs, class property accessors, and any non-VI file types.
+
+Code coverage is reported as "lines" (because Cobertura has no concept of nodes) where the coverage percentage is reported as x/100 lines to produce the correct coverage percentage. This is a hack that is likely to change in the future. Use code coverage with caution.
+
+![Code coverage example](.github/images/coverage.png)
+
+### Automatic Error Detection
+
+Any test case that returns an error on the `error out` terminal is considered a failed test. This includes broken VIs and errors that aren't the result of an assertion; enabling detection of otherwise uncaught errors.
+
+### Skippable Test Cases
+
+Test Explorer only runs public test cases. To disable a test case, change its scope (or the scope of its parent) to private.
+
+### LabVIEW CLI Support
+
+LVUnit supports `LabVIEW CLI` to run tests and generate summaries and coverage reports. See [Toolchain/Test](Toolchain/Test/) for a working example.
+
+```cmd
+LabVIEWCLI -AdditionalOperationDirectory "%cd%\Toolchain" -OperationName Test -Project "%cd%\LVUnit.lvproj" -ResultsFolder "%cd%\TestResults"
+```
+
+This operation outputs two files:
+- `TEST-<project>.xml` - test results in JUnit XML format.
+- `COVERAGE-<project>.xml` - code coverage results in Cobertura XML format.
+
+### Performance Mode
+
+Test Explorer runs in either of two modes:
+
+* Live
+* Performance (default)
+
+When _Performance_ mode is enabled, UI updates are globally disabled for the duration of the test; resulting in better test performance.
+
+![Performance Mode](.github/images/performance-mode.gif)
+
+## Design Decisions
+
+### Depend on Transparent Assertions
+
+LVUnit currently only discovers test cases that use [Transparent Assertions][transparent-assertions-url].
+
+**Rationale**
+
+LabVIEW does not have a standard API surface for test runners and assertion libraries. Existing unit test frameworks are typically closed environments which do not have the necessary API surface, ship with large dependency trees, and produce undesirable side-effects (e.g., spawning dialogs).
+
+Transparent Assertions is a pure assertions library that does not make any assumptions about the test runner, uses standard LabVIEW notation for assertion failures (error out), and supports integration into third-party assertion frameworks (e.g., LVUnit).
+
+By using Transparent Assertions, we can rely on correct error behavior and expressive failure messages while remaining independent - enabling users to replace LVUnit with any other test runner without changing any of the test cases.
+
+### Only Execute Public VIs
+
+LVUnit only executes public VIs. Test cases that are marked protected or private are not executed.
+
+**Rationale**
+
+The scope of a VI provides meaningful information to an observer: public VIs belong to the publicly-accessible interface, while protected and private members hide internal details. It also avoids accidentally calling internal wrappers that include assertions, which otherwise would cause the VI to be detected as a test case.
+
+This behavior can be used to skip tests by marking them as private. Note that this also applies to entire libraries - if the library is not public, all VIs inside it are skipped too.
+
+### Define Theories in JSON format
+
+Theories are VIs that have controls mapped to the connector pane, and a matching JSON file next to the VI, making the VI reusable for many test cases.
+
+**Rationale**
+
+While other programming languages have built-in language support for parameterized tests (e.g., Attributes in C#), there is no equivalent in LabVIEW. Alternative approaches like wrapper VIs make test code harder to read, quickly become a maintenance burden, and do not sufficiently convey intend.
+
+By using JSON files, theories become very useful in several aspects:
+
+1. JSON files are text files that can easily be compared and diff'ed in Git
+2. JSON files are very well understood by AI agents and can vastly be auto-generated
+3. With the help of [JSONText][jsontext-url] and [JSONText Object Serialization][jsontext-object-serialization-url], it is possible to dynamically deserialize complex object structures from JSON.
+
 ## Roadmap
 See [open issues](https://github.com/logmanoriginal/lvunit/issues) for a list of proposed features (and known issues).
 
-<!-- CONTRIBUTING -->
 ## Contributing
 Contributions are what make the open source community such an amazing place. Any contributions you make are greatly appreciated :sparkling_heart:
 
@@ -127,20 +208,16 @@ Keep in mind that LabVIEW&trade; VIs are binary files, which are difficult to me
 - Avoid conflicts with other pull requests (don't work on the same libraries or VIs).
 - Send VI Snippets (via issues) instead of pull requests when possible.
 
-<!-- LICENSE -->
 ## License
 Distributed under the BSD-3-Clause license. See [LICENSE](LICENSE) for more information.
 
-<!-- CONTACT -->
 ## Contact
 
 Project Link: [https://github.com/logmanoriginal/lvunit](https://github.com/logmanoriginal/lvunit)
 
-<!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [JSONtext](https://bitbucket.org/drjdpowell/jsontext)
 
-<!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/logmanoriginal/LVUnit?style=for-the-badge
 [contributors-url]: https://github.com/logmanoriginal/LVUnit/graphs/contributors
@@ -152,3 +229,6 @@ Project Link: [https://github.com/logmanoriginal/lvunit](https://github.com/logm
 [issues-url]: https://github.com/logmanoriginal/LVUnit/issues
 [license-shield]: https://img.shields.io/github/license/logmanoriginal/LVUnit?style=for-the-badge
 [license-url]: https://github.com/logmanoriginal/LVUnit/blob/master/LICENSE.txt
+[transparent-assertions-url]: https://github.com/logmanoriginal/TransparentAssertions
+[jsontext-url]: https://bitbucket.org/drjdpowell/jsontext
+[jsontext-object-serialization-url]: https://github.com/logmanoriginal/JSONtext-Object-Serialization
