@@ -25,6 +25,7 @@
 	<Item Name="Create Coverage Report - No Project Files - Reports No Packages.vi" Type="VI" URL="../Create Coverage Report - No Project Files - Reports No Packages.vi"/>
 	<Item Name="Create Coverage Report - No Time Stamp - Reports Current Time.vi" Type="VI" URL="../Create Coverage Report - No Time Stamp - Reports Current Time.vi"/>
 	<Item Name="Create Coverage Report - Qualified Name Empty - Package Name Is Relative Path.vi" Type="VI" URL="../Create Coverage Report - Qualified Name Empty - Package Name Is Relative Path.vi"/>
+	<Item Name="Create Coverage Report - Uncovered Diagrams - Appear as Uncovered Branches.vi" Type="VI" URL="../Create Coverage Report - Uncovered Diagrams - Appear as Uncovered Branches.vi"/>
 	<Item Name="Create Coverage Report - With Custom Time Stamp - Reports Same Time.vi" Type="VI" URL="../Create Coverage Report - With Custom Time Stamp - Reports Same Time.vi"/>
 	<Item Name="Create Coverage Report - With Parent - Package Name Is Parent Qualified Name.vi" Type="VI" URL="../Create Coverage Report - With Parent - Package Name Is Parent Qualified Name.vi"/>
 	<Item Name="Create Coverage Report - With Project Files - Reports Package With Same Number of Classes.vi" Type="VI" URL="../Create Coverage Report - With Project Files - Reports Package With Same Number of Classes.vi"/>

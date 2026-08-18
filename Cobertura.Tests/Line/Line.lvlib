@@ -7,4 +7,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="To XML - Adds XML Entities.vi" Type="VI" URL="../To XML - Adds XML Entities.vi"/>
+	<Item Name="To XML - When Branch is True - Adds XML Entities.vi" Type="VI" URL="../To XML - When Branch is True - Adds XML Entities.vi"/>
 </Library>
