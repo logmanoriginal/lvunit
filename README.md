@@ -118,8 +118,9 @@ Test Explorer supports code coverage reports in Cobertura XML format.
 > [!IMPORTANT]
 > Code coverage support in LabVIEW is very limited and does not work for VIMs, polymorphic VIs, class property accessors, and any non-VI file types.
 
-Code coverage is reported as "lines" (because Cobertura has no concept of nodes) where the coverage percentage is reported as x/100 lines to produce the correct coverage percentage. This is a hack that is likely to change in the future. Use code coverage with caution.
+Code coverage reports represent nodes and diagrams as lines and branches. Every node on a diagram is a line. Nodes on covered diagrams count as executed. Nodes on uncovered diagrams count as not executed. The same logic is applied to branches - a covered diagram counts as an executed branch; an uncovered diagram counts as not executed branch. Furthermore, total line coverage depends on total number of nodes and diagrams covered vs. not covered.
 
+_Example report converted to HTML using [ReportGenerator](https://github.com/danielpalme/ReportGenerator)_
 ![Code coverage example](.github/images/coverage.png)
 
 ### Automatic Error Detection
